@@ -1,4 +1,4 @@
-package org.Projet.servletes;
+package org.Projet.servletes.administrateur;
 
 import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
