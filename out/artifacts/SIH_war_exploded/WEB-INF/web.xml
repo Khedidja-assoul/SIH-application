@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>SevletGetionMedecin</servlet-name>
-        <servlet-class>org.Projet.servletes.SevletGetionMedecin</servlet-class>
+        <servlet-name>SevletGetionPersonnel</servlet-name>
+        <servlet-class>org.Projet.servletes.SevletGetionPersonnel</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SevletGetionMedecin</servlet-name>
-        <url-pattern>/GestionMedecin</url-pattern>
+        <servlet-name>SevletGetionPersonnel</servlet-name>
+        <url-pattern>/GestionPersonnel</url-pattern>
     </servlet-mapping>
 
     <jsp-config>

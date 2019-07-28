@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc9d672-a518-4921-8eb5-5ae71ade64fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionPersonnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionMedecin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -94,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-424">
@@ -142,7 +138,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/Medecin.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletss/SevletGetionMedecin.java" />
         <option value="$PROJECT_DIR$/web/taglibs.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/temp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
@@ -161,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -307,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564322896648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564323138237" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -436,18 +432,18 @@
       <workItem from="1564176724977" duration="5518000" />
       <workItem from="1564234470035" duration="789000" />
       <workItem from="1564236570634" duration="681000" />
-      <workItem from="1564315245337" duration="4504000" />
+      <workItem from="1564315245337" duration="4740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43823000" />
+    <option name="totallyTimeSpent" value="44059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -639,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -674,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionPersonnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1263">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -701,6 +680,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionPersonnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1263">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
