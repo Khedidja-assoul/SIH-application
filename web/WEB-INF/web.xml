@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>SevletGetionMedecin</servlet-name>
-        <servlet-class>org.Projet.servletes.SevletGetionMedecin</servlet-class>
+        <servlet-class>org.Projet.servletes.SevletGetionPersonnel</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SevletGetionMedecin</servlet-name>

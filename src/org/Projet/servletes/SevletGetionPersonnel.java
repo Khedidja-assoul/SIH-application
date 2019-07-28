@@ -17,9 +17,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/SevletGetionMedecin")
+@WebServlet("/SevletGetionPersonnel")
 
-public class SevletGetionMedecin  extends HttpServlet{
+public class SevletGetionPersonnel extends HttpServlet{
     private static final long serialVersionUID = 1L;
     private AdministrateurDao administrateurDao;
 
@@ -30,7 +30,7 @@ public class SevletGetionMedecin  extends HttpServlet{
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionMedecin.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionPersonnel.jsp").forward(request, response);
     }
 
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
@@ -81,7 +81,7 @@ public class SevletGetionMedecin  extends HttpServlet{
         }
 
 
-        this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionMedecin.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionPersonnel.jsp").forward(request, response);
     }
 
 

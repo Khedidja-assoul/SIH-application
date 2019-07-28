@@ -26,7 +26,7 @@
 <body>
 
 
-<form method="post" action="GestionMedecin">
+<form method="post" action="GestionPersonnel">
     <p>
         <select name="typePersonnel" id="typePersonnel" onchange="selectionTypePersonnel()">
             <option value="Medecin">Medecin</option>
@@ -74,7 +74,7 @@
         </div>
     <input type="submit" />
 </form>
-<form method="post" action="GestionMedecin">
+<form method="post" action="GestionPersonnel">
     <select name="typePersonnelAffichier" id="typePersonnelAffichier" >
         <option value="Medecin">Medecin</option>
         <option value="Infirmier">Infirmier</option>
