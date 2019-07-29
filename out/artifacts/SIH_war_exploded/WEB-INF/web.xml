@@ -5,11 +5,19 @@
          version="4.0">
     <servlet>
         <servlet-name>SevletGetionPersonnel</servlet-name>
-        <servlet-class>org.Projet.servletes.SevletGetionPersonnel</servlet-class>
+        <servlet-class>org.Projet.servletes.administrateur.SevletGetionPersonnel</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SevletGetionPersonnel</servlet-name>
         <url-pattern>/GestionPersonnel</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletGestionChambre</servlet-name>
+        <servlet-class>org.Projet.servletes.administrateur.ServletGestionChambre</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionChambre</servlet-name>
+        <url-pattern>/GestionChambre</url-pattern>
     </servlet-mapping>
 
     <jsp-config>

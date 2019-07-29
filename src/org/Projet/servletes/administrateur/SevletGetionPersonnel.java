@@ -75,7 +75,6 @@ public class SevletGetionPersonnel extends HttpServlet{
 
             administrateurDao.ajouter(personnel, typePersonnel);
         }
-        System.out.println(request.getParameter("typePersonnelAffichier"));
         if (request.getParameter("typePersonnelAffichier")!=null) {
             request.setAttribute("personnels", administrateurDao.affichierPersonnels(request.getParameter("typePersonnelAffichier")));
         }

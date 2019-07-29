@@ -1,5 +1,6 @@
 package org.Projet.consumer.ImplemantationInterfaceDao;
 
+import org.Projet.beans.etablisement.Chambre;
 import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
 import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentBlocOperatoire;
@@ -21,6 +22,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
     }
 
+    /**** Fonction liee a la gestion du personnel****/
     public ArrayList<Personnel> affichierPersonnels(String typePersonnel){
 
         ArrayList<Personnel> personnels= new ArrayList();
@@ -30,7 +32,6 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
         try {
             connexion = daoFactory.getConnection();
             statement = connexion.createStatement();
-            System.out.println("heyyyyyyyyyyyyyyyyyy : "+typePersonnel);
             switch (typePersonnel) {
                 case "Medecin" :
                     resultat = statement.executeQuery("SELECT * FROM medecin;");
@@ -134,12 +135,33 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             preparedStatement.setString(4, personnel.getDateNaissance());
             preparedStatement.setString(5, personnel.getEmail());
             preparedStatement.setString(6, personnel.getTel());
-            System.out.println(preparedStatement.toString());
             preparedStatement.executeUpdate();
         }
          catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    /**** Fonction liee a la gestion des chambre ****/
+    public void ajouter(Chambre chambre){
+        Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("INSERT INTO  Chambre (num,etage,nbLits,estReserver) VALUES(?,?,?,?)");
+            preparedStatement.setInt(1,chambre.getNum());
+            preparedStatement.setInt(2,chambre.getEtage());
+            preparedStatement.setInt(3,chambre.getNbLits());
+            preparedStatement.setBoolean(4,chambre.isEstReserver());
+            System.out.println(preparedStatement.toString());
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+
+        }
+
     }
 
 

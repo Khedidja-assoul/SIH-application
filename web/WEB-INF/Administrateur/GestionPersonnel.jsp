@@ -21,7 +21,7 @@
         }
     </script>
     <meta charset="utf-8" />
-    <title>Test</title>
+    <title>Gestion du personnel</title>
 </head>
 <body>
 
