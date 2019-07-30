@@ -1,7 +1,10 @@
 package org.Projet.consumer;
 
+
+import org.Projet.consumer.ImplemantationInterfaceDao.AgentParamedicalDaoImpl;
 import org.Projet.consumer.InterfaceDao.AdministrateurDao;
 import org.Projet.consumer.ImplemantationInterfaceDao.AdministrateurDaoImpl;
+import org.Projet.consumer.InterfaceDao.AgentParamedicalDao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -22,7 +25,6 @@ public class DaoFactory {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         }
 
         DaoFactory instance = new DaoFactory(
@@ -37,8 +39,14 @@ public class DaoFactory {
 
     // Récupération du Dao
 
-    public AdministrateurDao getUtilisateurDao() {
-        return new AdministrateurDaoImpl(this) {
-        };
+    public Object getUtilisateurDao(String typeUtilisateur) {
+        switch (typeUtilisateur){
+            case "administrateur": return new AdministrateurDaoImpl(this);
+            case "agentParamedicale": return new AgentParamedicalDaoImpl(this);
+
+        }
+
+        return null;
+
     }
 }

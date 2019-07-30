@@ -19,6 +19,14 @@
         <servlet-name>ServletGestionChambre</servlet-name>
         <url-pattern>/GestionChambre</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletGestionPatient</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletGestionPatient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionPatient</servlet-name>
+        <url-pattern>/GestionPatient</url-pattern>
+    </servlet-mapping>
 
     <jsp-config>
         <jsp-property-group>

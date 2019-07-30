@@ -13,6 +13,9 @@
   <body>
   <h1>Fonction Administrateur</h1>
   <a href="/SIH_war_exploded/GestionPersonnel">Gestion personnel</a></br>
-  <a href="/SIH_war_exploded/GestionChambre">Gestion Chambre</a>
+  <a href="/SIH_war_exploded/GestionChambre">Gestion Chambre</a></br>
+  <h1>Fonction Agent paramedical</h1>
+  <a href="/SIH_war_exploded/GestionPatient">Gestion patients</a></br>
+
   </body>
 </html>

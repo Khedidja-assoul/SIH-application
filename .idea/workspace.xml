@@ -7,26 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc9d672-a518-4921-8eb5-5ae71ade64fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SIH_war_exloded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SIH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/META-INF/SIH.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Chambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Chambre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/SevletGetionPersonnel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/META-INF/SIH.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/etablisement/Chambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/etablisement/Chambre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/SevletGetionPersonnel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionChambre.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/gestion chambre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionChambre.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionPersonnel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/gestion chambre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/Administrateur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Bloc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Chambre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Laboratoire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Plateau.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/etablisement/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Consentement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/Personnel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentBlocOperatoire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentLaboratoire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/PersonnelMedicoTechenique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Infirmier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/uniteSoins/UniteSoins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeDiagnostic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/CompteRendu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Consultation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Hospitalisation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/PlanSoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Presecription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Rdv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ResultatBiologique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/ServletGestionChambre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/taglibs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/taglibs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/css/administrateur/gestion chambre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/ServletGestionChambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/ServletGestionChambre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetSihTableScripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projetSihTableScripts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,67 +81,39 @@
     <SUITE FILE_PATH="coverage/SIH$Tomcat_9_0_19.ic" NAME="Tomcat 9.0.19 Coverage Results" MODIFIED="1564088727631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SIH" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/gestion chambre.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1423">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projetSihTableScripts.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="129" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,17 +122,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,9 +144,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -158,9 +175,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/Medecin.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletss/SevletGetionMedecin.java" />
         <option value="$PROJECT_DIR$/web/taglibs.jsp" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/temp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/UniteSoins.java" />
@@ -173,14 +188,23 @@
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionMedecin.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/etablisement/typeChambre.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/AgentParamedical/AgentParamedicalDao.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/GestionPatient.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" />
+        <option value="$PROJECT_DIR$/projetSihTableScripts.sql" />
       </list>
     </option>
   </component>
@@ -214,8 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,13 +250,61 @@
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="servletes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="servletes" type="462c0819:PsiDirectoryNode" />
+              <item name="administrateur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="servletes" type="462c0819:PsiDirectoryNode" />
+              <item name="agentParamedical" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Administrateur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="AgentParamedicale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
@@ -249,12 +321,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564355924334" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SIH" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -283,11 +355,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Tomcat Server.tomcat 9.0.19">
     <configuration name="GestionMedecin.jsp" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/SIH_war_exploded/WEB-INF/Administrateur/GestionMedecin.jsp">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SIH_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -298,7 +370,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SIH" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SIH_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -306,7 +378,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50299" />
+        <option name="DEBUG_PORT" value="50634" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -362,7 +434,7 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.GestionMedecin.jsp" />
-      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Tomcat Server.tomcat 9.0.19" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -395,7 +467,12 @@
       <workItem from="1564359882319" duration="33000" />
       <workItem from="1564396521173" duration="145000" />
       <workItem from="1564396912192" duration="218000" />
-      <workItem from="1564397799239" duration="7461000" />
+      <workItem from="1564397799239" duration="15182000" />
+      <workItem from="1564444336734" duration="352000" />
+      <workItem from="1564445116250" duration="80000" />
+      <workItem from="1564445232156" duration="1197000" />
+      <workItem from="1564482778066" duration="1099000" />
+      <workItem from="1564484218856" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout package dans les servletes">
       <created>1564323484684</created>
@@ -404,11 +481,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564323484684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout des fonction de creation des chambre + ajout des fichier css a la page ajouter chambre">
+      <created>1564406788931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564406788932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout acceuil">
+      <created>1564407902171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407902171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64516000" />
+    <option name="totallyTimeSpent" value="76265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,6 +514,41 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.25113463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50127226" side_tool="true" weight="0.2473525" />
+      <window_info id="Web" order="7" sideWeight="0.50127226" side_tool="true" weight="0.2473525" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.35679215" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.35679215" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -456,41 +582,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4762684" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +590,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout package" />
     <MESSAGE value="Ajout package dans les servletes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout package dans les servletes" />
+    <MESSAGE value="Ajout des fonction de creation des chambre + ajout des fichier css a la page ajouter chambre" />
+    <MESSAGE value="Ajout acceuil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout acceuil" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SIH.iml">
@@ -523,34 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="246" selection-start-line="246" selection-end-line="246" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/taglibs.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,43 +670,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/gestionMedecin.js" />
     <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -656,20 +693,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/gestion chambre.css" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/gestion chambre.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -687,16 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1423">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -707,6 +725,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="89" lean-forward="true" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -714,30 +837,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java">
+    <entry file="file://$PROJECT_DIR$/web/css/administrateur/gestion chambre.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
+        <state relative-caret-position="357">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/GestionPatient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/gestion chambre.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/gestion chambre.css">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="93">
+          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetSihTableScripts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
@@ -795,7 +963,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|SIH</last-edited>
+          <last-edited>SIH</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

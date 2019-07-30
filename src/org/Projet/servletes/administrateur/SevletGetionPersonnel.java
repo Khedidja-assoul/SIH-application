@@ -7,6 +7,7 @@ import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentLaborat
 import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Infirmier;
 import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Medecin;
 import org.Projet.consumer.DaoFactory;
+import org.Projet.consumer.ImplemantationInterfaceDao.AdministrateurDaoImpl;
 import org.Projet.consumer.InterfaceDao.AdministrateurDao;
 
 import java.io.IOException;
@@ -25,7 +26,7 @@ public class SevletGetionPersonnel extends HttpServlet{
 
     public void init() throws ServletException {
         DaoFactory daoFactory = DaoFactory.getInstance();
-        this.administrateurDao= daoFactory.getUtilisateurDao();
+        this.administrateurDao= (AdministrateurDaoImpl) daoFactory.getUtilisateurDao("administrateur");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

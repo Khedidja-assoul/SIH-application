@@ -2,6 +2,7 @@ package org.Projet.servletes.administrateur;
 
 import org.Projet.beans.etablisement.Chambre;
 import org.Projet.consumer.DaoFactory;
+import org.Projet.consumer.ImplemantationInterfaceDao.AdministrateurDaoImpl;
 import org.Projet.consumer.InterfaceDao.AdministrateurDao;
 
 
@@ -20,7 +21,7 @@ public class ServletGestionChambre extends HttpServlet {
 
         public void init() throws ServletException {
             DaoFactory daoFactory = DaoFactory.getInstance();
-            this.administrateurDao= daoFactory.getUtilisateurDao();
+            this.administrateurDao= (AdministrateurDaoImpl)daoFactory.getUtilisateurDao("administrateur");
         }
 
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
