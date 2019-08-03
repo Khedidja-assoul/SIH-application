@@ -2,6 +2,7 @@ package org.Projet.consumer;
 
 
 import org.Projet.consumer.ImplemantationInterfaceDao.AgentParamedicalDaoImpl;
+import org.Projet.consumer.ImplemantationInterfaceDao.UtilisateurDaoImpl;
 import org.Projet.consumer.InterfaceDao.AdministrateurDao;
 import org.Projet.consumer.ImplemantationInterfaceDao.AdministrateurDaoImpl;
 import org.Projet.consumer.InterfaceDao.AgentParamedicalDao;
@@ -43,7 +44,7 @@ public class DaoFactory {
         switch (typeUtilisateur){
             case "administrateur": return new AdministrateurDaoImpl(this);
             case "agentParamedicale": return new AgentParamedicalDaoImpl(this);
-
+            case "utilisateur" :return new UtilisateurDaoImpl(this);
         }
 
         return null;

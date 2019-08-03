@@ -11,6 +11,7 @@
         <servlet-name>SevletGetionPersonnel</servlet-name>
         <url-pattern>/GestionPersonnel</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>ServletGestionChambre</servlet-name>
         <servlet-class>org.Projet.servletes.administrateur.ServletGestionChambre</servlet-class>
@@ -19,6 +20,7 @@
         <servlet-name>ServletGestionChambre</servlet-name>
         <url-pattern>/GestionChambre</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>ServletGestionPatient</servlet-name>
         <servlet-class>org.Projet.servletes.agentParamedical.ServletGestionPatient</servlet-class>
@@ -27,6 +29,25 @@
         <servlet-name>ServletGestionPatient</servlet-name>
         <url-pattern>/GestionPatient</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAuthentification</servlet-name>
+        <servlet-class>org.Projet.servletes.general.ServletAuthentification</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAuthentification</servlet-name>
+        <url-pattern>/Authentification</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAccueil</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletAccueil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueil</servlet-name>
+        <url-pattern>/AccueilAgentParamedicale</url-pattern>
+    </servlet-mapping>
+
 
     <jsp-config>
         <jsp-property-group>

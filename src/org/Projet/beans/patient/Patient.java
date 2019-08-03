@@ -1,8 +1,9 @@
 package org.Projet.beans.patient;
 
+import org.Projet.beans.Authentifiable;
 import org.Projet.beans.etablisement.Chambre;
 
-public class Patient {
+public class Patient extends Authentifiable {
     private int matricule;
     private String nom;
     private String prenom;

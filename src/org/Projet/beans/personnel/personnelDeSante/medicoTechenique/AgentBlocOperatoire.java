@@ -12,6 +12,6 @@ public class AgentBlocOperatoire extends PersonnelMedicoTechenique {
     private void allouerPersonnelMedicale(){};//fonction utiliser dans reserver bloc
     private void allouerPatient(){};//fonction utiliser dans reserver bloc
     public void reserverBloc(){};//fonction qui nous permet de reserver un bloc
-                                    // pour une intervention d'un Patient donne avec du Personnel medicale assigne
+                                    // pour une intervention d'un patient donne avec du Personnel medicale assigne
     public void libererBloc(){};//liberer un bloc apres la fin de l'intervention
 }

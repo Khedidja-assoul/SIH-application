@@ -1,8 +1,10 @@
 package org.Projet.consumer.InterfaceDao;
 
+import org.Projet.beans.Utilisateur;
 import org.Projet.beans.patient.Patient;
 
 public interface AgentParamedicalDao {
 
-    void ajouter(Patient patient);
+    int ajouter(Patient patient);
+    void ajouter(Utilisateur compte);
 }

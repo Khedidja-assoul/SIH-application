@@ -1,5 +1,6 @@
 package org.Projet.servletes.administrateur;
 
+import org.Projet.beans.Utilisateur;
 import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
 import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentBlocOperatoire;
@@ -40,41 +41,44 @@ public class SevletGetionPersonnel extends HttpServlet{
         String typePersonnel = request.getParameter("typePersonnel");
         if (request.getParameter("typePersonnel")!=null) {
             switch (typePersonnel) {
-                case "Medecin":
+                case "medecin":
                     personnel = new Medecin(request.getParameter("nom"), request.getParameter("prenom"),
                             Integer.parseInt(request.getParameter("nbHeures")), request.getParameter("dateNaissance"),
                             request.getParameter("email"), request.getParameter("tel"), request.getParameter("grade"),
                             request.getParameter("specialite"));
                     break;
 
-                case "Infirmier":
+                case "infirmier":
                     personnel = new Infirmier(request.getParameter("nom"), request.getParameter("prenom"),
                             Integer.parseInt(request.getParameter("nbHeures")), request.getParameter("dateNaissance"),
                             request.getParameter("email"), request.getParameter("tel"));
-                    System.out.println("\n type chois i\n" + typePersonnel);
                     break;
 
-                case "Agent bloc operatoire":
+                case "agentblocoperatoire":
                     personnel = new AgentBlocOperatoire(request.getParameter("nom"), request.getParameter("prenom"),
                             Integer.parseInt(request.getParameter("nbHeures")), request.getParameter("dateNaissance"),
                             request.getParameter("email"), request.getParameter("tel"));
                     break;
 
-                case "Agent laboratoire":
+                case "agentlaboratoire":
                     personnel = new AgentLaboratoire(request.getParameter("nom"), request.getParameter("prenom"),
                             Integer.parseInt(request.getParameter("nbHeures")), request.getParameter("dateNaissance"),
                             request.getParameter("email"), request.getParameter("tel"));
                     break;
 
-                case "Agent paramedicale":
+                case "agentparamedicale":
                     personnel = new AgentParamedicale(request.getParameter("nom"), request.getParameter("prenom"),
                             Integer.parseInt(request.getParameter("nbHeures")), request.getParameter("dateNaissance"),
                             request.getParameter("email"), request.getParameter("tel"));
                     break;
 
             }
-
-            administrateurDao.ajouter(personnel, typePersonnel);
+            //A l'ajout d'un mombre du personnel on ajoute un compte avec comme valeur par defaut  nomUtilisateur :
+            //nomUtilisateur : @mail mot de passe :nom+prenom le tout en miniscule
+            int id = administrateurDao.ajouter(personnel, typePersonnel);
+            String motPasse = request.getParameter("nom").toLowerCase()+request.getParameter("prenom").toLowerCase();
+            Utilisateur compte = new Utilisateur(request.getParameter("email"),motPasse,typePersonnel,id);
+            administrateurDao.ajouter(compte);
         }
         if (request.getParameter("typePersonnelAffichier")!=null) {
             request.setAttribute("personnels", administrateurDao.affichierPersonnels(request.getParameter("typePersonnelAffichier")));

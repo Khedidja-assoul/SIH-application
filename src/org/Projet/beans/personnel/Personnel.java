@@ -1,6 +1,8 @@
 package org.Projet.beans.personnel;
 
-public abstract class Personnel implements Comparable<Personnel> {
+import org.Projet.beans.Authentifiable;
+
+public abstract class Personnel extends Authentifiable implements Comparable<Personnel> {
     private int matricule ;
     private String nom ;
     private String prenom ;
@@ -77,5 +79,10 @@ public abstract class Personnel implements Comparable<Personnel> {
 
     public int compareTo(Personnel o) {
         return (nom+prenom+tel).compareTo(o.getNom()+getPrenom()+getTel());
+    }
+
+    @Override
+    public String toString() {
+        return matricule+" "+ nom + " " + prenom;
     }
 }

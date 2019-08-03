@@ -1,5 +1,6 @@
 package org.Projet.consumer.ImplemantationInterfaceDao;
 
+import org.Projet.beans.Utilisateur;
 import org.Projet.beans.etablisement.Chambre;
 import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
@@ -12,6 +13,8 @@ import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Medecin;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AdministrateurDaoImpl implements AdministrateurDao {
 
@@ -33,7 +36,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             connexion = daoFactory.getConnection();
             statement = connexion.createStatement();
             switch (typePersonnel) {
-                case "Medecin" :
+                case "medecin" :
                     resultat = statement.executeQuery("SELECT * FROM medecin;");
                     while (resultat.next()){
                         Medecin medecin = new Medecin(resultat.getString("nom"), resultat.getString("prenom"),
@@ -46,7 +49,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
                     break;
 
-                case "Infirmier":
+                case "infirmier":
                     resultat = statement.executeQuery("SELECT * FROM infirmier;");
                     while (resultat.next()) {
                         Infirmier infirmier = new Infirmier(resultat.getString("nom"), resultat.getString("prenom"),
@@ -58,7 +61,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
                     break;
 
-                case "Agent bloc operatoire":
+                case "agentblocoperatoire":
                     resultat = statement.executeQuery("SELECT * FROM AgentBlocOperatoire;");
                     AgentBlocOperatoire agentBlocOperatoire = new AgentBlocOperatoire(resultat.getString("nom"), resultat.getString("prenom"),
                             resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
@@ -67,7 +70,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
                     personnels.add(agentBlocOperatoire);
                     break;
 
-                case "Agent laboratoire":
+                case "agentlaboratoire":
                     resultat = statement.executeQuery("SELECT * FROM AgentLaboratoire;");
                     while (resultat.next()) {
                         AgentLaboratoire agentLaboratoire = new AgentLaboratoire(resultat.getString("nom"), resultat.getString("prenom"),
@@ -79,7 +82,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
                     break;
 
-                case "Agent paramedicale":
+                case "agentparamedicale":
                     resultat = statement.executeQuery("SELECT * FROM AgentParamedicale;");
                     while (resultat.next()) {
                         AgentParamedicale agentParamedicale= new AgentParamedicale(resultat.getString("nom"), resultat.getString("prenom"),
@@ -96,34 +99,56 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
         }
         return personnels;
     }
-    public void ajouter(Personnel personnel,String typePersonnel){
+
+  /*  public Personnel afficher(String typePersonnel,HashMap<String,String> critere ){
+        Personnel personnel =null;
+        if (typePersonnel!=null) {
+            String query = "Select ? from " + typePersonnel;
+            if(!critere.isEmpty()){
+                query = query+" where";
+                boolean premier = true;
+                for (Map.Entry<String, String> entry : critere.entrySet())
+                {
+                    String champ= entry.getKey();
+                    String valeur = entry.getValue();
+                    if (premier){
+                        query = query + champ +" = ? ";
+                        premier = false;
+                    }
+
+                }
+            }
+        }
+        return personnel;
+    }*/
+    public int ajouter(Personnel personnel,String typePersonnel){
         Connection connexion = null;
         PreparedStatement preparedStatement = null;
 
         try {
             connexion = daoFactory.getConnection();
             switch (typePersonnel) {
-                case "Medecin" :
+                case "medecin" :
                     preparedStatement = connexion.prepareStatement
                         ("INSERT INTO medecin(nom, prenom,nbHeures,dateNaissance, email, tel, grade, specialite) " +
                                 "VALUES(?,?, ?, ?, ?, ?, ?, ?);");
                     preparedStatement.setString(7, ((Medecin)personnel).getGrade());
                     preparedStatement.setString(8, ((Medecin)personnel).getSpecialite());
                     break;
-                case "Infirmier":
+                case "infirmier":
                     preparedStatement = connexion.prepareStatement
                             ("INSERT INTO infirmier(nom, prenom,nbHeures,dateNaissance, email, tel) VALUES( ?, ?, ?, ?, ?, ?);");
                     break;
-                case "Agent bloc operatoire":
+                case "agentblocoperatoire":
                     preparedStatement = connexion.prepareStatement
                             ("INSERT INTO AgentBlocOperatoire(nom, prenom,nbHeures,dateNaissance, email, tel) VALUES(?, ?, ?, ?, ?, ?);");
                     break;
 
-                case "Agent laboratoire":
+                case "agentlaboratoire":
                     preparedStatement = connexion.prepareStatement
                             ("INSERT INTO AgentLaboratoire(nom, prenom,nbHeures,dateNaissance, email, tel) VALUES(?, ?, ?, ?, ?, ?);");
                     break;
-                case "Agent paramedicale":
+                case "agentparamedicale":
                     preparedStatement = connexion.prepareStatement
                             ("INSERT INTO AgentParamedicale(nom, prenom,nbHeures,dateNaissance, email, tel) VALUES(?, ?, ?, ?, ?, ?);");
                     break;
@@ -136,12 +161,38 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             preparedStatement.setString(5, personnel.getEmail());
             preparedStatement.setString(6, personnel.getTel());
             preparedStatement.executeUpdate();
+            Statement statement = null;
+            ResultSet resultat = null;
+            statement = connexion.createStatement();
+            resultat =statement.executeQuery("SELECT max(id) from "+typePersonnel);
+            while (resultat.next()){
+                return resultat.getInt("max(id)");
+            }
         }
          catch (SQLException e) {
             e.printStackTrace();
         }
+        return 0;
     }
 
+    public void ajouter(Utilisateur compte){
+        Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("INSERT INTO  utilisateur (nomUtilisateur,motPasse" +
+                    ",typeUtilisateur,id) VALUES(?,?,?,?)");
+            preparedStatement.setString(1,compte.getNomUtilisateur());
+            preparedStatement.setString(2,compte.getMotPasse());
+            preparedStatement.setString(3,compte.getTypeUtilisateur());
+            preparedStatement.setInt(4,compte.getId());
+            preparedStatement.executeUpdate();
+            }
+        catch (SQLException e){
+             e.printStackTrace();
+        }
+    }
     /**** Fonction liee a la gestion des chambre ****/
     public void ajouter(Chambre chambre){
         Connection connexion = null;
@@ -154,7 +205,6 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             preparedStatement.setInt(2,chambre.getEtage());
             preparedStatement.setInt(3,chambre.getNbLits());
             preparedStatement.setBoolean(4,chambre.isEstReserver());
-            System.out.println(preparedStatement.toString());
             preparedStatement.executeUpdate();
         }
         catch (SQLException e){

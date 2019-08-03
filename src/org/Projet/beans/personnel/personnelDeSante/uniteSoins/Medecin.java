@@ -61,9 +61,9 @@ public class Medecin extends UniteSoins {
     public void etablirPrescription(){};//rediger une prescription
     public void etablirDemandeActeComp(){};//rediger une demande d'acte complementaire
     public void affecterPlanSoins(){};// affecter un plan de soins a un Infirmier
-    public void consulterActeComp(){};// consulter la liste des actes comp pour un Patient donne
-    public void consulterPlanSoins(){};// consulter la liste des plans  de soins pour un Patient donne
-    public void consulterPrescription(){};// consulter la liste des prescription pour un Patient donne
+    public void consulterActeComp(){};// consulter la liste des actes comp pour un patient donne
+    public void consulterPlanSoins(){};// consulter la liste des plans  de soins pour un patient donne
+    public void consulterPrescription(){};// consulter la liste des prescription pour un patient donne
 
     @Override
     public String toString() {
