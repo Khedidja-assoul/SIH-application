@@ -22,6 +22,7 @@
     </script>
     <meta charset="utf-8" />
     <title>Gestion du personnel</title>
+    //<link rel="stylesheet" href="${pageContext.request.contextPath}/css/administrateur/gestion%20chambre.css" type="text/css">
 </head>
 <body>
 
@@ -29,11 +30,11 @@
 <form method="post" action="GestionPersonnel">
     <p>
         <select name="typePersonnel" id="typePersonnel" onchange="selectionTypePersonnel()">
-            <option value="Medecin">Medecin</option>
-            <option value="Infirmier">Infirmier</option>
-            <option value="Agent bloc operatoire">Agent bloc operatoire</option>
-            <option value="Agent laboratoire" selected>Agent laboratoire</option>
-            <option value="Agent paramedicale" selected>Agent paramedicale</option>
+            <option value="medecin">Medecin</option>
+            <option value="infirmier">Infirmier</option>
+            <option value="agentblocoperatoire">Agent bloc operatoire</option>
+            <option value="agentlaboratoire" selected>Agent laboratoire</option>
+            <option value="agentparamedicale" selected>Agent paramedicale</option>
         </select>
 
 
@@ -76,11 +77,11 @@
 </form>
 <form method="post" action="GestionPersonnel">
     <select name="typePersonnelAffichier" id="typePersonnelAffichier" >
-        <option value="Medecin">Medecin</option>
-        <option value="Infirmier">Infirmier</option>
-        <option value="Agent bloc operatoire">Agent bloc operatoire</option>
-        <option value="Agent laboratoire" selected>Agent laboratoire</option>
-        <option value="Agent paramedicale" selected>Agent paramedicale</option>
+        <option value="medecin">Medecin</option>
+        <option value="infirmier">Infirmier</option>
+        <option value="agentblocoperatoire">Agent bloc operatoire</option>
+        <option value="agentlaboratoire" selected>Agent laboratoire</option>
+        <option value="agentparamedicale" selected>Agent paramedicale</option>
     </select>
     <input type="submit" />
 </form>

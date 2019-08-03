@@ -9,6 +9,7 @@ import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Medecin;
 
 public class Administrateur {
     private int id;
+    private String nomUtilisateur;
     private String motDePasse;
     private String nom;
     private String prenom;

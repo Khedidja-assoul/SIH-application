@@ -34,7 +34,7 @@ public class ServletGestionPatient extends HttpServlet {
         int id = agentParamedicalDao.ajouter(patient);
 
         //A l'ajout d'un mombre du personnel on ajoute un compte avec comme valeur par defaut  nomUtilisateur :
-        //nomUtilisateur : @mail mot de passe :nom+prenom le tout en miniscule
+        //nomUtilisateur : @mail / mot de passe :nom+prenom le tout en miniscule
 
         String motPasse = request.getParameter("nom").toLowerCase()+request.getParameter("prenom").toLowerCase();
         Utilisateur compte = new Utilisateur(request.getParameter("email"),motPasse,"patient",id);

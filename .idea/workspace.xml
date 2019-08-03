@@ -6,36 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fc9d672-a518-4921-8eb5-5ae71ade64fb" name="Default Changelist" comment="Ajout acceuil">
+    <list default="true" id="7fc9d672-a518-4921-8eb5-5ae71ade64fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/gestion chambre.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/Personnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/Personnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/personnel/Personnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/personnel/Personnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentBlocOperatoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentBlocOperatoire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentLaboratoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/medicoTechenique/AgentLaboratoire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionPersonnel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/agentParamedical/ServletGestionPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/agentParamedical/ServletGestionPatient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/Administrateur/GestionPersonnel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/agentParamedical/ServletGestionPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/agentParamedical/ServletGestionPatient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Administrateur/gestion chambre.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="1496">
               <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="46" />
+            <state relative-caret-position="799">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -92,16 +81,37 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
-              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+              <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/UtilisateurDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionMedecin.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/SevletGetionMedecin.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/etablisement/typeChambre.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/etablisement/Chambre.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp" />
@@ -198,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/General/Authentification.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletAccueil.java" />
@@ -208,6 +216,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" />
       </list>
     </option>
   </component>
@@ -241,8 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,13 +334,6 @@
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SIH" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="AgentParamedicale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
@@ -504,7 +507,8 @@
       <workItem from="1564572011820" duration="18416000" />
       <workItem from="1564656741143" duration="13835000" />
       <workItem from="1564782354136" duration="5419000" />
-      <workItem from="1564825620074" duration="14077000" />
+      <workItem from="1564825620074" duration="14971000" />
+      <workItem from="1564850400204" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout package dans les servletes">
       <created>1564323484684</created>
@@ -527,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564407902171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout acceuil">
+      <created>1564840773618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564840773618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132087000" />
+    <option name="totallyTimeSpent" value="133395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,7 +557,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.21482602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.21785174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -685,13 +696,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/gestionMedecin.js" />
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/etablisement/typeChambre.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -940,16 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/GestionPatient.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1008,10 +1002,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/UtilisateurDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,44 +1063,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="240">
           <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
