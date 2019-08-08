@@ -3,6 +3,35 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+<!-- Administrateur-->
+    <servlet>
+        <servlet-name>ServletGestionCompteAdministrateur</servlet-name>
+        <servlet-class>org.Projet.servletes.administrateur.ServletGestionCompteAdministrateur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionCompteAdministrateur</servlet-name>
+        <url-pattern>/GestionComptesAdministrateurs</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAuthentificationAdmin</servlet-name>
+        <servlet-class>org.Projet.servletes.administrateur.ServletAuthentificationAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAuthentificationAdmin</servlet-name>
+        <url-pattern>/AuthentificationAdmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAccueilAdmin</servlet-name>
+        <servlet-class>org.Projet.servletes.administrateur.ServletAccueilAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilAdmin</servlet-name>
+        <url-pattern>/AccueilAdministrateur</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>SevletGetionPersonnel</servlet-name>
         <servlet-class>org.Projet.servletes.administrateur.SevletGetionPersonnel</servlet-class>
@@ -20,16 +49,7 @@
         <servlet-name>ServletGestionChambre</servlet-name>
         <url-pattern>/GestionChambre</url-pattern>
     </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ServletGestionPatient</servlet-name>
-        <servlet-class>org.Projet.servletes.agentParamedical.ServletGestionPatient</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ServletGestionPatient</servlet-name>
-        <url-pattern>/GestionPatient</url-pattern>
-    </servlet-mapping>
-
+<!-- Agent paramedicale-->
     <servlet>
         <servlet-name>ServletAuthentification</servlet-name>
         <servlet-class>org.Projet.servletes.general.ServletAuthentification</servlet-class>
@@ -48,6 +68,75 @@
         <url-pattern>/AccueilAgentParamedicale</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletGestionPatient</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletGestionPatient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionPatient</servlet-name>
+        <url-pattern>/GestionPatient</url-pattern>
+    </servlet-mapping>
+
+    <!-- Medecin -->
+    <servlet>
+        <servlet-name>ServletAccueilMedecin</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAccueilMedecin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilMedecin</servlet-name>
+        <url-pattern>/AccueilMedecin</url-pattern>
+    </servlet-mapping>
+
+    <!-- Infirmier -->
+    <servlet>
+        <servlet-name>ServletAccueilInfirmier</servlet-name>
+        <servlet-class>org.Projet.servletes.infirmier.ServletAccueilInfirmier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilInfirmier</servlet-name>
+        <url-pattern>/AccueilInfirmier</url-pattern>
+    </servlet-mapping>
+
+    <!-- Agent laboratoire -->
+    <servlet>
+        <servlet-name>ServletAccueilAgentLabo</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletAccueilAgentLabo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilAgentLabo</servlet-name>
+        <url-pattern>/AccueilAgentLaboratoire</url-pattern>
+    </servlet-mapping>
+
+    <!-- Agent bloc operatoire -->
+    <servlet>
+        <servlet-name>ServletAccueilAgentBloc</servlet-name>
+        <servlet-class>org.Projet.servletes.agentBlocOperatoire.ServletAccueilAgentBloc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilAgentBloc</servlet-name>
+        <url-pattern>/AccueilBlocOperatoire</url-pattern>
+    </servlet-mapping>
+
+    <!-- Patient -->
+    <servlet>
+        <servlet-name>ServletAccueilPatient</servlet-name>
+        <servlet-class>org.Projet.servletes.patient.ServletAccueilPatient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilPatient</servlet-name>
+        <url-pattern>/AccueilPatient</url-pattern>
+    </servlet-mapping>
+
+    <!--test servlet -->
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>org.Projet.servletes.test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+    <!-- configuration-->
 
     <jsp-config>
         <jsp-property-group>

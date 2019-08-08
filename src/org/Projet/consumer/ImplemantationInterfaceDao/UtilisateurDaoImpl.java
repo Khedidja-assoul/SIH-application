@@ -1,9 +1,7 @@
 package org.Projet.consumer.ImplemantationInterfaceDao;
 
-import com.sun.xml.internal.bind.v2.TODO;
 import org.Projet.beans.Authentifiable;
 import org.Projet.beans.patient.Patient;
-import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
 import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentBlocOperatoire;
 import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentLaboratoire;
@@ -35,22 +33,20 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
             connexion = daoFactory.getConnection();
             preparedStatement = connexion.prepareStatement("SELECT * FROM utilisateur where typeUtilisateur = ?" +
                     "and nomUtilisateur = ? and motPasse = ? ;");
-            System.out.println(nomUtilisateur + " " + motPasse + " " + typeUtilisateur);
             preparedStatement.setString(1, typeUtilisateur);
             preparedStatement.setString(2, nomUtilisateur);
             preparedStatement.setString(3, motPasse);
-            System.out.println(preparedStatement.toString());
+
             preparedStatement.executeQuery();
             resultat = preparedStatement.getResultSet();
             while (resultat.next()) {
-                System.out.println(resultat.getInt("id"));
                 return resultat.getInt("id");
             }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        throw new InformationsErroneeException("Informations Erronee");
+        throw new InformationsErroneeException("Compte inexisatant, informations erronee");
     }
 
     public Authentifiable getCompte(String nomUtilisateur, String motPasse, String typeUtilisateur) throws InformationsErroneeException {
@@ -62,10 +58,10 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
                     connexion = daoFactory.getConnection();
                     preparedStatement = connexion.prepareStatement("SELECT * FROM " + typeUtilisateur + " where id = ?;");
                     preparedStatement.setInt(1, id);
-                    System.out.println(preparedStatement.toString());
                     preparedStatement.executeQuery();
                     resultat = preparedStatement.getResultSet();
                     while (resultat.next()) {
+
                         switch (typeUtilisateur) {
                             case "medecin":
                                 Medecin medecin = new Medecin(resultat.getString("nom"), resultat.getString("prenom"),
@@ -101,6 +97,7 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
                                         resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
                                         resultat.getString("email"), resultat.getString("tel"));
                                 agentParamedicale.setMatricule(resultat.getInt("id"));
+
                                 return agentParamedicale;
                             case "patient":
                                 Patient patient = new Patient(resultat.getString("nom"), resultat.getString("prenom"),

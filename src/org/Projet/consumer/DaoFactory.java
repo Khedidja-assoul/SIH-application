@@ -1,11 +1,7 @@
 package org.Projet.consumer;
 
 
-import org.Projet.consumer.ImplemantationInterfaceDao.AgentParamedicalDaoImpl;
-import org.Projet.consumer.ImplemantationInterfaceDao.UtilisateurDaoImpl;
-import org.Projet.consumer.InterfaceDao.AdministrateurDao;
-import org.Projet.consumer.ImplemantationInterfaceDao.AdministrateurDaoImpl;
-import org.Projet.consumer.InterfaceDao.AgentParamedicalDao;
+import org.Projet.consumer.ImplemantationInterfaceDao.*;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -45,6 +41,11 @@ public class DaoFactory {
             case "administrateur": return new AdministrateurDaoImpl(this);
             case "agentParamedicale": return new AgentParamedicalDaoImpl(this);
             case "utilisateur" :return new UtilisateurDaoImpl(this);
+            case "patient" : return new PatientDaoImpl(this);
+            case "medecin": return new MedecinDaoImpl(this);
+            case "infirmier": return new InfirmierDaoImpl(this);
+            case "agentBlocOperatoire" :return new AgentBlocOperatoireDaoImpl(this);
+            case "agentLaboratoire" : return new AgentLaboratoireDaoImpl(this);
         }
 
         return null;

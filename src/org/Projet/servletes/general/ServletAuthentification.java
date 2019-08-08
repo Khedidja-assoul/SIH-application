@@ -39,18 +39,41 @@ public class ServletAuthentification  extends HttpServlet {
              Authentifiable utilisateur = utilisateurDao.getCompte(request.getParameter("nomUtilisateur"), request.getParameter("motPasse"),
                      request.getParameter("typeUtilisateur"));
              request.setAttribute("utilisateur", utilisateur);
-            System.out.println(utilisateur);
+             System.out.println(utilisateur);
              if (request.getParameter("typeUtilisateur").equals("agentparamedicale")) {
                  HttpSession session = request.getSession();
                  session.setAttribute("utilisateur",utilisateur);
-
                  response.sendRedirect("AccueilAgentParamedicale");
              }
-             else this.getServletContext().getRequestDispatcher("/WEB-INF/General/Authentification.jsp").forward(request, response);
+             else if (request.getParameter("typeUtilisateur").equals("medecin")) {
+                 HttpSession session = request.getSession();
+                 session.setAttribute("utilisateur",utilisateur);
+                 response.sendRedirect("AccueilMedecin");
+             }
+             else if (request.getParameter("typeUtilisateur").equals("infirmier")) {
+                 HttpSession session = request.getSession();
+                 session.setAttribute("utilisateur",utilisateur);
+                 response.sendRedirect("AccueilInfirmier");
+             }
+             else if (request.getParameter("typeUtilisateur").equals("agentlaboratoire")) {
+                 HttpSession session = request.getSession();
+                 session.setAttribute("utilisateur",utilisateur);
+                 response.sendRedirect("AccueilAgentLaboratoire");
+             }
+             else if (request.getParameter("typeUtilisateur").equals("agentblocoperatoire")) {
+                 HttpSession session = request.getSession();
+                 session.setAttribute("utilisateur",utilisateur);
+                 response.sendRedirect("AccueilBlocOperatoire");
+             }
+             else if (request.getParameter("typeUtilisateur").equals("patient")) {
+                 HttpSession session = request.getSession();
+                 session.setAttribute("utilisateur",utilisateur);
+                 response.sendRedirect("AccueilPatient");
+             }
+
          }
          catch (InformationsErroneeException e){
              request.setAttribute("erreur",e.getMessage());
-             System.out.println("catchit");
              this.getServletContext().getRequestDispatcher("/WEB-INF/General/Authentification.jsp").forward(request, response);
          }
         //this.getServletContext().getRequestDispatcher("/WEB-INF/General/Authentification.jsp").forward(request, response);

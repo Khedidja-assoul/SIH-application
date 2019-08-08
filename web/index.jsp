@@ -11,10 +11,12 @@
     <title>$Title$</title>
   </head>
   <body>
+
   <h1>Fonction Administrateur</h1>
-  <a href="/SIH_war_exploded/GestionPersonnel">Gestion personnel</a></br>
-  <a href="/SIH_war_exploded/GestionChambre">Gestion Chambre</a></br>
+  <a href="/SIH_war_exploded/AuthentificationAdmin">Authentification admin</a>
   <h1>Authentification</h1>
   <a href="/SIH_war_exploded/Authentification">Authentification</a></br>
+  <a href="/SIH_war_exploded/test">test json to html</a></br>
+
   </body>
 </html>

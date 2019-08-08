@@ -1,5 +1,6 @@
 package org.Projet.consumer.ImplemantationInterfaceDao;
 
+import org.Projet.beans.Administrateur;
 import org.Projet.beans.Utilisateur;
 import org.Projet.beans.etablisement.Chambre;
 import org.Projet.beans.personnel.Personnel;
@@ -10,11 +11,10 @@ import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Infirmier;
 import org.Projet.consumer.DaoFactory;
 import org.Projet.consumer.InterfaceDao.AdministrateurDao;
 import org.Projet.beans.personnel.personnelDeSante.uniteSoins.Medecin;
+import org.Projet.exceptions.InformationsErroneeException;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class AdministrateurDaoImpl implements AdministrateurDao {
 
@@ -36,7 +36,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             connexion = daoFactory.getConnection();
             statement = connexion.createStatement();
             switch (typePersonnel) {
-                case "medecin" :
+                case "medecin":
                     resultat = statement.executeQuery("SELECT * FROM medecin;");
                     while (resultat.next()){
                         Medecin medecin = new Medecin(resultat.getString("nom"), resultat.getString("prenom"),
@@ -62,12 +62,15 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
                     break;
 
                 case "agentblocoperatoire":
+
                     resultat = statement.executeQuery("SELECT * FROM AgentBlocOperatoire;");
-                    AgentBlocOperatoire agentBlocOperatoire = new AgentBlocOperatoire(resultat.getString("nom"), resultat.getString("prenom"),
-                            resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
-                            resultat.getString("email"), resultat.getString("tel"));
-                    agentBlocOperatoire.setMatricule(resultat.getInt("id"));
-                    personnels.add(agentBlocOperatoire);
+                    while (resultat.next()) {
+                        AgentBlocOperatoire agentBlocOperatoire = new AgentBlocOperatoire(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"));
+                        agentBlocOperatoire.setMatricule(resultat.getInt("id"));
+                        personnels.add(agentBlocOperatoire);
+                    }
                     break;
 
                 case "agentlaboratoire":
@@ -128,7 +131,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
         try {
             connexion = daoFactory.getConnection();
             switch (typePersonnel) {
-                case "medecin" :
+                case "medecin":
                     preparedStatement = connexion.prepareStatement
                         ("INSERT INTO medecin(nom, prenom,nbHeures,dateNaissance, email, tel, grade, specialite) " +
                                 "VALUES(?,?, ?, ?, ?, ?, ?, ?);");
@@ -200,7 +203,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
         try {
             connexion = daoFactory.getConnection();
-            preparedStatement = connexion.prepareStatement("INSERT INTO  Chambre (num,etage,nbLits,estReserver) VALUES(?,?,?,?)");
+            preparedStatement = connexion.prepareStatement("INSERT INTO  Chambre (num,etage,nbLits,estReserver) VALUES(?,?,?,?);");
             preparedStatement.setInt(1,chambre.getNum());
             preparedStatement.setInt(2,chambre.getEtage());
             preparedStatement.setInt(3,chambre.getNbLits());
@@ -210,6 +213,205 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
         catch (SQLException e){
             e.printStackTrace();
 
+        }
+
+    }
+
+    public void ajouter(Administrateur administrateur){
+        Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("INSERT INTO  Administrateur (nomUtilisateur," +
+                    "motDePasse,nom,prenom) VALUES(?,?,?,?);");
+            preparedStatement.setString(1,administrateur.getNomUtilisateur());
+            preparedStatement.setString(2,administrateur.getMotDePasse());
+            preparedStatement.setString(3,administrateur.getNom());
+            preparedStatement.setString(4,administrateur.getPrenom());
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+
+        }
+
+    }
+
+
+    public int connexion(String nomUtilisateur, String motPasse) throws InformationsErroneeException {
+        Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultat = null;
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("SELECT * FROM administrateur where nomUtilisateur = ? and motDePasse = ? ;");
+            preparedStatement.setString(1, nomUtilisateur);
+            preparedStatement.setString(2, motPasse);
+            System.out.println(preparedStatement.toString());
+            preparedStatement.executeQuery();
+            resultat = preparedStatement.getResultSet();
+            while (resultat.next()) {
+                System.out.println(resultat.getInt("id"));
+                return resultat.getInt("id");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        throw new InformationsErroneeException("Informations Erronee");
+    }
+
+    public Administrateur getCompte(String nomUtilisateur, String motPasse) throws InformationsErroneeException {
+        int id = connexion(nomUtilisateur, motPasse);
+        Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultat = null;
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("SELECT * FROM administrateur where id = ?;");
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeQuery();
+            resultat = preparedStatement.getResultSet();
+            while (resultat.next()) {
+                Administrateur administrateur = new Administrateur(resultat.getString("nomUtilisateur"),
+                        resultat.getString("motDePasse"),resultat.getString("nom"),
+                        resultat.getString("prenom"));
+                administrateur.setId(id);
+                return administrateur;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        return null;
+
+    }
+    public Personnel getPersonnel(String typePersonnel, int idPersonnel){
+        Personnel personnel= null;
+        Connection connexion = null;
+        Statement statement = null;
+        ResultSet resultat = null;
+        try {
+            connexion = daoFactory.getConnection();
+            statement = connexion.createStatement();
+            switch (typePersonnel) {
+                case "Medecin":
+                    resultat = statement.executeQuery("SELECT * FROM medecin where id = "+idPersonnel+ " ;");
+                    while (resultat.next()){
+                        Medecin medecin = new Medecin(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"),resultat.getString("grade"),
+                                resultat.getString("specialite"));
+                        medecin.setMatricule(resultat.getInt("id"));
+                        return medecin;
+                    }
+
+                case "Infirmier":
+                    resultat = statement.executeQuery("SELECT * FROM infirmier where id = "+idPersonnel+ " ;");
+                    while (resultat.next()) {
+                        Infirmier infirmier = new Infirmier(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"));
+                        infirmier.setMatricule(resultat.getInt("id"));
+                        return infirmier;
+                    }
+
+                case "agentblocoperatoire":
+                    resultat = statement.executeQuery("SELECT * FROM AgentBlocOperatoire where id = "+idPersonnel+ " ;");
+                    while (resultat.next()) {
+                        AgentBlocOperatoire agentBlocOperatoire = new AgentBlocOperatoire(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"));
+                        agentBlocOperatoire.setMatricule(resultat.getInt("id"));
+                        return agentBlocOperatoire;
+                    }
+
+                case "agentlaboratoire":
+                    resultat = statement.executeQuery("SELECT * FROM AgentLaboratoire where id = "+idPersonnel+ " ;");
+                    while (resultat.next()) {
+                        AgentLaboratoire agentLaboratoire = new AgentLaboratoire(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"));
+                        agentLaboratoire.setMatricule(resultat.getInt("id"));
+                        return agentLaboratoire;
+                    }
+
+                case "agentparamedicale":
+                    resultat = statement.executeQuery("SELECT * FROM AgentParamedicale where id = "+idPersonnel+ " ;");
+                    while (resultat.next()) {
+                        AgentParamedicale agentParamedicale= new AgentParamedicale(resultat.getString("nom"), resultat.getString("prenom"),
+                                resultat.getInt("nbHeures"), resultat.getString("dateNaissance"),
+                                resultat.getString("email"), resultat.getString("tel"));
+                        agentParamedicale.setMatricule(resultat.getInt("id"));
+                        return agentParamedicale;
+                    }
+            }
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return personnel;
+    }
+
+    public void supprimer(String typePersonnel, int idPersonnel){
+        Connection connection =null;
+        PreparedStatement preparedStatement = null;
+        try{
+            connection = daoFactory.getConnection();
+                    preparedStatement = connection.prepareStatement("delete from " +typePersonnel+" where id = ? ;");
+            preparedStatement.setInt(1,idPersonnel);
+            System.out.println(preparedStatement.toString());
+            preparedStatement.executeUpdate();
+            supprimer(idPersonnel);
+        }
+        catch(SQLException e){
+        }
+
+    }
+
+    public void supprimer(int idUtilisateur){
+        Connection connection =null;
+        PreparedStatement preparedStatement = null;
+        try{
+            connection = daoFactory.getConnection();
+            preparedStatement = connection.prepareStatement("delete from utilisateur where id = ? ;");
+            preparedStatement.setInt(1,idUtilisateur);
+            preparedStatement.executeUpdate();
+        }
+        catch(SQLException e){
+        }
+
+    }
+
+    public void modifier(String typePersonnel,Personnel personnel){
+        Connection connection =null;
+        PreparedStatement preparedStatement = null;
+        try{
+            connection = daoFactory.getConnection();
+            if(typePersonnel.equals("Medecin")){
+                preparedStatement = connection.prepareStatement("update " + typePersonnel + " SET nom = ? prenom = ?" +
+                        "nbHeures = ? dateNaissance = ? email = ? tel = ? grade = ?  specialite = ? where id = ? ;");
+                preparedStatement.setString(7,((Medecin)personnel).getGrade());
+                preparedStatement.setString(8,((Medecin)personnel).getSpecialite());
+                preparedStatement.setInt(9,personnel.getMatricule());
+            }
+            else {
+                preparedStatement = connection.prepareStatement("update " + typePersonnel + " SET nom = ? prenom = ?" +
+                        "nbHeures = ? dateNaissance = ? email = ? tel = ? where id = ? ;");
+                preparedStatement.setInt(7,personnel.getMatricule());
+            }
+
+            preparedStatement.setString(1,personnel.getNom());
+            preparedStatement.setString(2,personnel.getPrenom());
+            preparedStatement.setInt(3,personnel.getNbHeures());
+            preparedStatement.setString(4,personnel.getDateNaissance());
+            preparedStatement.setString(5,personnel.getEmail());
+            preparedStatement.setString(6,personnel.getTel());
+            preparedStatement.executeUpdate();
+        }
+        catch(SQLException e){
         }
 
     }

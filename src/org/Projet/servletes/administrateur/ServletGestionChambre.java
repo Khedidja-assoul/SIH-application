@@ -31,10 +31,8 @@ public class ServletGestionChambre extends HttpServlet {
 
         public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
 
-            Chambre chambre = null;
-            chambre =  new Chambre(Integer.parseInt(request.getParameter("num")),Integer.parseInt(request.getParameter("etage")),
+            Chambre chambre = new Chambre(Integer.parseInt(request.getParameter("num")),Integer.parseInt(request.getParameter("etage")),
                     Integer.parseInt(request.getParameter("nbLits")));
-            System.out.println("Objet : " +chambre.toString());
             administrateurDao.ajouter(chambre);
 
             this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionChambre.jsp").forward(request, response);

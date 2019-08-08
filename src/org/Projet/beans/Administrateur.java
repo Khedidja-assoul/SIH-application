@@ -14,7 +14,52 @@ public class Administrateur {
     private String nom;
     private String prenom;
 
+    public Administrateur(String nomUtilisateur, String motDePasse, String nom, String prenom) {
+        this.nomUtilisateur = nomUtilisateur;
+        this.motDePasse = motDePasse;
+        this.nom = nom;
+        this.prenom = prenom;
+    }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNomUtilisateur() {
+        return nomUtilisateur;
+    }
+
+    public void setNomUtilisateur(String nomUtilisateur) {
+        this.nomUtilisateur = nomUtilisateur;
+    }
+
+    public String getMotDePasse() {
+        return motDePasse;
+    }
+
+    public void setMotDePasse(String motDePasse) {
+        this.motDePasse = motDePasse;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
 
     public void ajouterChefService(Medecin medecin, Service service){
         medecin.setEstChefService(true);
@@ -22,5 +67,8 @@ public class Administrateur {
         //TODO : travailler avec le matricule du medecin est le nom du service au lieu des objets
     }
 
-
+    @Override
+    public String toString() {
+        return nom +" "+prenom+" "+nomUtilisateur+" "+motDePasse;
+    }
 }

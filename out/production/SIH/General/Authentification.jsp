@@ -22,8 +22,9 @@
             <option value="medecin">Medecin</option>
             <option value="infirmier">Infirmier</option>
             <option value="agentblocoperatoire">Agent bloc operatoire</option>
-            <option value="agentlaboratoire" selected>Agent laboratoire</option>
-            <option value="agentparamedicale" selected>Agent paramedicale</option>
+            <option value="agentlaboratoire" >Agent laboratoire</option>
+            <option value="agentparamedicale" >Agent paramedicale</option>
+            <option value="patient">Patient</option>
         </select>
         </div>
         <button type="submit" class="registerbtn">S'authentifier</button>

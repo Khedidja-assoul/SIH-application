@@ -8,7 +8,6 @@ prenom varchar(30) not null,
 primary key (id)
 );
 
-
 CREATE TABLE Medecin(
 id int(5) auto_increment,
 nom varchar(30) not null,
@@ -90,4 +89,12 @@ email varchar(30),
 primary key(id)
 );
 ALTER TABLE patient AUTO_INCREMENT=100000;
+
+CREATE TABLE utilisateur (
+nomUtilisateur  varchar(30) not null,
+motPasse varchar(30) not null,
+typeUtilisateur  varchar(10) not null,
+id int,
+primary key(nomUtilisateur)
+);
 

@@ -31,6 +31,20 @@ public class SevletGetionPersonnel extends HttpServlet{
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String id ;
+        if(request.getParameter("personnelSupp")!=null){
+            id =  request.getParameter("personnelSupp");
+            String typePersonnelSupprimer = request.getParameter("typePersonnelSupprimer");
+            System.out.println(id +" type : "+typePersonnelSupprimer);
+            administrateurDao.supprimer(typePersonnelSupprimer,Integer.parseInt(id));
+        }
+
+        if(request.getParameter("personnelModif")!=null){
+            id =  request.getParameter("personnelModif");
+            String typePersonnelModifier = request.getParameter("typePersonnelModifier");
+            System.out.println(id +" type : "+typePersonnelModifier);
+
+        }
 
         this.getServletContext().getRequestDispatcher("/WEB-INF/Administrateur/GestionPersonnel.jsp").forward(request, response);
     }
@@ -81,6 +95,9 @@ public class SevletGetionPersonnel extends HttpServlet{
             administrateurDao.ajouter(compte);
         }
         if (request.getParameter("typePersonnelAffichier")!=null) {
+            request.setAttribute("typePersonnelSupprimer",request.getParameter("typePersonnelAffichier"));
+            request.setAttribute("typePersonnelModifier",request.getParameter("typePersonnelAffichier"));
+            System.out.println("type : "+request.getParameter("typePersonnelAffichier"));
             request.setAttribute("personnels", administrateurDao.affichierPersonnels(request.getParameter("typePersonnelAffichier")));
         }
 
