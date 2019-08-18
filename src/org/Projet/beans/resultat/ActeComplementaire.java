@@ -1,49 +1,28 @@
 package org.Projet.beans.resultat;
 
-public class ActeComplementaire {
-    private int idDemande;
-    private int idMedecin;
-    private int idPatient;
-    private String dateDemande;
+public  abstract class ActeComplementaire {
+    private int id;
+    private int idConsultation;
     private int idResultat;
 
-    public ActeComplementaire(int idMedecin, int idPatient,String dateDemande) {
-        this.idMedecin = idMedecin;
-        this.idPatient = idPatient;
-        this.dateDemande = dateDemande;
+    public ActeComplementaire(int idConsultation) {
+        this.idConsultation = idConsultation;
     }
 
-    public int getIdDemande() {
-        return idDemande;
+    public int getId() {
+        return id;
     }
 
-    public void setIdDemande(int idDemande) {
-        this.idDemande = idDemande;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public int getIdMedecin() {
-        return idMedecin;
+    public int getIdConsultation() {
+        return idConsultation;
     }
 
-    public void setIdMedecin(int idMedecin) {
-        this.idMedecin = idMedecin;
-    }
-
-    public int getIdPatient() {
-        return idPatient;
-    }
-
-    public void setIdPatient(int idPatient) {
-        this.idPatient = idPatient;
-    }
-
-
-    public String getDateDemande() {
-        return dateDemande;
-    }
-
-    public void setDateDemande(String dateDemande) {
-        this.dateDemande = dateDemande;
+    public void setIdConsultation(int idConsultation) {
+        this.idConsultation = idConsultation;
     }
 
     public int getIdResultat() {

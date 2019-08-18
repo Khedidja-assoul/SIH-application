@@ -77,9 +77,8 @@ public class Patient extends Authentifiable {
         this.email = email;
     }
 
-    public void demanderRdv(){};//demander un rdv la fonction retourne les dates libres
-    public void consulterDossierPatient(){};
-
-
-
+    @Override
+    public String toString() {
+        return matricule + " " + nom + " "+ prenom;
+    }
 }

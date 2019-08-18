@@ -65,8 +65,4 @@ public class Medecin extends UniteSoins {
     public void consulterPlanSoins(){};// consulter la liste des plans  de soins pour un patient donne
     public void consulterPrescription(){};// consulter la liste des prescription pour un patient donne
 
-    @Override
-    public String toString() {
-        return getNom()+getPrenom()+getGrade()+getSpecialite();
-    }
 }

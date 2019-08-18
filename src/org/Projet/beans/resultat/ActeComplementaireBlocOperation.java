@@ -4,8 +4,8 @@ public class ActeComplementaireBlocOperation extends ActeComplementaire {
 
     private String datePrevue ;
 
-    public ActeComplementaireBlocOperation(int idMedecin, int idPatient, String dateDemande,String datePrevue ) {
-        super(idMedecin, idPatient, dateDemande);
+    public ActeComplementaireBlocOperation(int idConsultation,String datePrevue ) {
+        super(idConsultation);
         this.datePrevue = datePrevue;
     }
 

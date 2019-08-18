@@ -1,15 +1,18 @@
 package org.Projet.beans.resultat;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonParser;
+
 public class Analyse {
-    private int id ;
+    private int id;
     private String nomOfficile;
     private String abreviation;
-    private String detailes;
+    private String detailles;
 
-    public Analyse(String nomOfficile, String abreviation, String detailes) {
+    public Analyse(String nomOfficile, String abreviation, String detailles) {
         this.nomOfficile = nomOfficile;
         this.abreviation = abreviation;
-        this.detailes = detailes;
+        this.detailles = detailles;
     }
 
     public int getId() {
@@ -36,12 +39,12 @@ public class Analyse {
         this.abreviation = abreviation;
     }
 
-    public String getDetailes() {
-        return detailes;
+    public String getDetailles() {
+        return detailles;
     }
 
     public void setDetailes(String detailes) {
-        this.detailes = detailes;
+        this.detailles = detailes;
     }
 }
 

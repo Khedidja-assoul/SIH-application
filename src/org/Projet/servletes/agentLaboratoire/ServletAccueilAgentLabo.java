@@ -21,6 +21,7 @@ public class ServletAccueilAgentLabo extends HttpServlet {
         this.agentLaboratoireDao= (AgentLaboratoireDaoImpl)daoFactory.getUtilisateurDao("agentLaboratoire");
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         this.getServletContext().getRequestDispatcher("/WEB-INF/AgentLaboratoire/Accueil.jsp").forward(request, response);
     }
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {

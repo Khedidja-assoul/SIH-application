@@ -87,6 +87,33 @@
         <url-pattern>/AccueilMedecin</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletAjouterConsultation</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAjouterConsultation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAjouterConsultation</servlet-name>
+        <url-pattern>/AjouterConsultation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletComposanteConsultation</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletComposanteConsultation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletComposanteConsultation</servlet-name>
+        <url-pattern>/ComposantConsultation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAjouterDemandeActe</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAjouterDemandeActe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAjouterDemandeActe</servlet-name>
+        <url-pattern>/AjouterDemandeActe</url-pattern>
+    </servlet-mapping>
+
     <!-- Infirmier -->
     <servlet>
         <servlet-name>ServletAccueilInfirmier</servlet-name>
@@ -107,6 +134,14 @@
         <url-pattern>/AccueilAgentLaboratoire</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletGestionAnalyse</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletGestionAnalyse</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionAnalyse</servlet-name>
+        <url-pattern>/GestionAnalyse</url-pattern>
+    </servlet-mapping>
     <!-- Agent bloc operatoire -->
     <servlet>
         <servlet-name>ServletAccueilAgentBloc</servlet-name>

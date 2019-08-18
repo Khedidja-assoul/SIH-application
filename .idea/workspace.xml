@@ -7,51 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc9d672-a518-4921-8eb5-5ae71ade64fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/General/Authentification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/General/Authentification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Administrateur/gestion chambre.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/General/Authentification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/General/Authentification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/Administrateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/Administrateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SIH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/AgentLaboratoire/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/AgentLaboratoire/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Medecin/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/Medecin/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/AgentLaboratoire/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/AgentLaboratoire/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Medecin/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/Medecin/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/patient/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/DaoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/ServletGestionChambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/ServletGestionChambre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/general/ServletAuthentification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/general/ServletAuthentification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaireBlocOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaireBlocOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaireLaboratoire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/ActeComplementaireLaboratoire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/CompteRendu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/CompteRendu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Consultation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/Consultation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/beans/resultat/TypeAnalyse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/MedecinDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/consumer/InterfaceDao/MedecinDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/medecin/ServletAccueilMedecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/org/Projet/servletes/medecin/ServletAccueilMedecin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/classes/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SIH_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/Administrateur/gestion chambre.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/General/Authentification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/General/Authentification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/Administrateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/Administrateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/AgentLaboratoire/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/AgentLaboratoire/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/Medecin/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/Medecin/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/patient/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/DaoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AdministrateurDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/ServletGestionChambre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/ServletGestionChambre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/administrateur/SevletGetionPersonnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/general/ServletAuthentification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/general/ServletAuthentification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaireBlocOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaireBlocOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaireLaboratoire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/ActeComplementaireLaboratoire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/CompteRendu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/CompteRendu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/Consultation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/Consultation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/beans/resultat/TypeAnalyse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/MedecinDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/consumer/InterfaceDao/MedecinDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/medecin/ServletAccueilMedecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/org/Projet/servletes/medecin/ServletAccueilMedecin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SIH/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SIH/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetSihTableScripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projetSihTableScripts.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/General/Authentification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/General/Authentification.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/CompteRendu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/CompteRendu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/beans/resultat/Consultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/beans/resultat/Consultation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +75,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SIH$Tomcat_9_0_19.ic" NAME="Tomcat 9.0.19 Coverage Results" MODIFIED="1564088727631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -72,49 +98,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterDemandeActe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="855">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterPrescription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentBlocOperatoire/ServletAccueilAgentBloc.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterPrescription.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletComposanteConsultation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterConsultation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterDemandeActe.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/ComposantConsultation.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -126,14 +206,15 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sys</find>
+      <find>max</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -152,40 +233,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/UtilisateurDao.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentParamedicalDao.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/Utilisateur.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionCompteAdministrateur.jsp" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionChambre.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/Administrateur.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionCompteAdministrateur.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionComptesAdministrateurs.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/AuthentificationAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletAccueil.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletAuthentificationAdmin.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletAccueilAdmin.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AdministrateurDao.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Patient.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/Administrateur/Accueil.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Patient/Accueil.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/patient/ServletAccueilPatient.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/PatientDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/InfirmierDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentBlocOperatoireDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/TypeActesComplementaire.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/medecin/Accueil.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/infirmier/Accueil.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/AgentBlocOperatoire/Accueil.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletAccueil.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentBlocOperatoire/ServletAccueilAgentBloc.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/infirmier/ServletAccueilInfirmier.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java" />
@@ -193,16 +250,40 @@
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/json to html.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/servletes/test.java" />
-        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/TypeAnalyse.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletGestionAnlyse.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletGestionAnalyse.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/GestionAnalyse.jsp" />
         <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletDemandeActe.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/Consultation.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/CompteRendu.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/Consultation.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterConsultation.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletComposanteConsultation.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterDemandeActe.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/ComposantConsultation.jsp" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterConsultation.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterDemandeActe.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterPrescription.jsp" />
       </list>
     </option>
   </component>
@@ -226,7 +307,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -236,7 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +340,38 @@
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="patient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="resultat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Projet" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="ImplemantationInterfaceDao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
@@ -283,39 +394,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Projet" type="462c0819:PsiDirectoryNode" />
               <item name="servletes" type="462c0819:PsiDirectoryNode" />
-              <item name="agentBlocOperatoire" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SIH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletes" type="462c0819:PsiDirectoryNode" />
-              <item name="patient" type="462c0819:PsiDirectoryNode" />
+              <item name="medecin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SIH" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SIH" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="administrateur" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Medecin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH" type="b2602c69:ProjectViewProjectNode" />
@@ -326,6 +423,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,27 +431,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564355924334" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SIH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gson-2.8.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\WEB-INF\lib" />
-      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\css\administrateur" />
-      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\css" />
-      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.Projet.servletes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\WEB-INF\lib" />
+      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\css\administrateur" />
+      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\css" />
+      <recent name="D:\Abdenour\Etude\Ecole\esi\2CPI\POO\POO programes\IdeaProjects\SIH\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,7 +598,17 @@
       <workItem from="1565039307794" duration="2242000" />
       <workItem from="1565106247934" duration="2301000" />
       <workItem from="1565189859676" duration="5864000" />
-      <workItem from="1565259979883" duration="2193000" />
+      <workItem from="1565259979883" duration="9453000" />
+      <workItem from="1565627637845" duration="9068000" />
+      <workItem from="1565648449009" duration="1890000" />
+      <workItem from="1565687071521" duration="9086000" />
+      <workItem from="1565736305457" duration="49000" />
+      <workItem from="1565775505476" duration="9867000" />
+      <workItem from="1565822421501" duration="1942000" />
+      <workItem from="1565860400520" duration="22883000" />
+      <workItem from="1565908231714" duration="401000" />
+      <workItem from="1565949155963" duration="4509000" />
+      <workItem from="1566125016371" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout package dans les servletes">
       <created>1564323484684</created>
@@ -534,7 +642,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196346000" />
+    <option name="totallyTimeSpent" value="263886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +657,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.19364598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,11 +677,11 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.35679215" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -583,41 +691,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.22995462" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50127226" side_tool="true" weight="0.2473525" />
-      <window_info id="Web" order="7" sideWeight="0.50127226" side_tool="true" weight="0.2473525" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.35188216" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.35679215" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -629,378 +702,11 @@
     <MESSAGE value="Ajout acceuil" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajout acceuil" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/PatientDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/InfirmierDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentBlocOperatoireDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionComptesAdministrateurs.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentBlocOperatoireDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/InfirmierDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/PatientDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletGestionPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/TypeResultatBiologique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/agentParamedicale/AgentParamedicale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/GestionPatient.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="126" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentParamedical/ServletAccueil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="105" selection-start-line="20" selection-start-column="105" selection-end-line="20" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/UtilisateurDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/infirmier/ServletAccueilInfirmier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentBlocOperatoire/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/SevletGetionPersonnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/General/Authentification.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sample.json" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Patient/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Infirmier/Accueil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/taglibs.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/AuthentificationAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/json to html.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/patient/ServletAccueilPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletAccueilAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletAuthentificationAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/administrateur/ServletGestionCompteAdministrateur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/table.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1011,41 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentBlocOperatoireDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1056,6 +731,386 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/AgentLaboratoireDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionChambre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/AuthentificationAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ResultatBiologique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Administrateur/GestionPersonnel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/Analyse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/CompteRendu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/PatientDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/UtilisateurDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/InfirmierDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentParamedicalDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentLaboratoireDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AgentBlocOperatoireDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletAccueilAgentLabo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/GestionPatient.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentParamedicale/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AgentLaboratoire/GestionAnalyse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/Personnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/Authentifiable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/Medecin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/personnel/personnelDeSante/uniteSoins/UniteSoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/patient/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+          <folding>
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/Consultation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/general/ServletAuthentification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="60" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireBlocOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/json to html.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/agentLaboratoire/ServletGestionAnalyse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/AdministrateurDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="172" column="13" selection-start-line="166" selection-start-column="12" selection-end-line="172" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/beans/resultat/ActeComplementaireLaboratoire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAccueilMedecin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterConsultation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/ImplemantationInterfaceDao/MedecinDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="109" column="67" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/consumer/InterfaceDao/MedecinDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletComposanteConsultation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterConsultation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterDemandeActe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/Accueil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/ComposantConsultation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterDemandeActe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Projet/servletes/medecin/ServletAjouterPrescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Medecin/AjouterPrescription.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1070,7 +1125,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1118,7 +1172,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1138,6 +1191,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>gson-2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

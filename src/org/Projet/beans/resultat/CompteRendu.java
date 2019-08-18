@@ -6,5 +6,5 @@ public class CompteRendu {
     private int id;
     private String text;
     private String date;
-    private Medecin medecin;
+    private int idMedecin;
 }
