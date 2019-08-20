@@ -23,6 +23,6 @@
 
 <h1>Fonction Medecin</h1>
 <a href="/SIH_war_exploded/AjouterConsultation">Ajouter une consultaton</a></br>
-<a>Liste Actes</a></br>
+<a href="/SIH_war_exploded/Consultations">Liste des consultations </a></br>
 </body>
 </html>

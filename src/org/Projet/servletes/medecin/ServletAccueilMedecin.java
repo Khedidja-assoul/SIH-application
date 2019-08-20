@@ -22,6 +22,7 @@ public class ServletAccueilMedecin extends HttpServlet {
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        request.getParameter("consulter");
         this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/Accueil.jsp").forward(request, response);
     }
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {

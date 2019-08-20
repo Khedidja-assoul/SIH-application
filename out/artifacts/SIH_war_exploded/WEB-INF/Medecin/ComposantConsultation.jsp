@@ -20,10 +20,11 @@
         </li>
     </ul>
 </c:if>
-<button name="prescription" id="prescription">Ajouter une prescription</button>
-<input  type="button" href="/SIH_war_exploded/AjouterDemandeActe" value="Ajouter une demande d'acte complémentaire">
-<button name="planSoins" id="planSoins">Ajouter plan de soins</button>
-<button name="compteRendu" id="compteRendu">Ajouter compte rendu</button>
+<a href="/SIH_war_exploded/AjouterPrescription">Ajouter une prescription</a><br>
+<a href="/SIH_war_exploded/AjouterDemandeActe">Ajouter une demande d'acte complémentaire</a><br>
+<a href="/SIH_war_exploded/AjouterPlanSoin">Ajouter un plan de soin</a>
+<a href="/SIH_war_exploded/AjouterCompteRendu">Ajouter un compte rendu</a>
+
 
 </body>
 </html>

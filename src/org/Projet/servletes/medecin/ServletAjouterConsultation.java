@@ -31,7 +31,7 @@ public class ServletAjouterConsultation extends HttpServlet {
             Patient patient = medecinDao.getPatient(nomPatient, prenomPatient);
             Medecin medecin = (Medecin) request.getSession().getAttribute("utilisateur");
             int idMedecin = medecin.getMatricule();
-            System.out.println("Medecin : " + idMedecin + " patient : " + patient.getMatricule());
+
             Consultation consultation = new Consultation(idMedecin, patient.getMatricule(),
                     request.getParameter("date"), request.getParameter("heure"), request.getParameter("motif"));
             int idConsultation = medecinDao.ajouter(consultation);

@@ -114,6 +114,82 @@
         <url-pattern>/AjouterDemandeActe</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletAjouterPrescription</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAjouterPrescription</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAjouterPrescription</servlet-name>
+        <url-pattern>/AjouterPrescription</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAjouterCompteRendu</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAjouterCompteRendu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAjouterCompteRendu</servlet-name>
+        <url-pattern>/AjouterCompteRendu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletPlanSoin</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletAjouterPlanSoin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPlanSoin</servlet-name>
+        <url-pattern>/AjouterPlanSoin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletConsultation</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletConsultation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConsultation</servlet-name>
+        <url-pattern>/Consultations</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletConsulterConsultation</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletConsulterConsultation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConsulterConsultation</servlet-name>
+        <url-pattern>/Consultation</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPrescription</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletPrescription</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPrescription</servlet-name>
+        <url-pattern>/Prescription</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPlanSoins</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletPlanSoins</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPlanSoins</servlet-name>
+        <url-pattern>/PlanSoin</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletCompteRendu</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletCompteRendu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCompteRendu</servlet-name>
+        <url-pattern>/CompteRendu</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletActComplementaire</servlet-name>
+        <servlet-class>org.Projet.servletes.medecin.ServletActComplementaire</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletActComplementaire</servlet-name>
+        <url-pattern>/ActeComplementaire</url-pattern>
+    </servlet-mapping>
+
     <!-- Infirmier -->
     <servlet>
         <servlet-name>ServletAccueilInfirmier</servlet-name>
