@@ -218,6 +218,16 @@
         <servlet-name>ServletGestionAnalyse</servlet-name>
         <url-pattern>/GestionAnalyse</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemandesActes</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletDemandesActes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemandesActes</servlet-name>
+        <url-pattern>/DemandesActes</url-pattern>
+    </servlet-mapping>
+
     <!-- Agent bloc operatoire -->
     <servlet>
         <servlet-name>ServletAccueilAgentBloc</servlet-name>
