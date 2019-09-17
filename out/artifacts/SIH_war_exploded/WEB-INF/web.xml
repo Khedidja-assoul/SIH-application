@@ -236,6 +236,22 @@
         <url-pattern>/AccueilInfirmier</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletAfficherConsultation</servlet-name>
+        <servlet-class>org.Projet.servletes.infirmier.ServletAfficherConsultation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAfficherConsultation</servlet-name>
+        <url-pattern>/AfficherPlansSoins</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletAfficherPlanSoins</servlet-name>
+        <servlet-class>org.Projet.servletes.infirmier.ServletAfficherPlanSoins</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAfficherPlanSoins</servlet-name>
+        <url-pattern>/AfficherPlanSoins</url-pattern>
+    </servlet-mapping>
     <!-- Agent laboratoire -->
     <servlet>
         <servlet-name>ServletAccueilAgentLabo</servlet-name>

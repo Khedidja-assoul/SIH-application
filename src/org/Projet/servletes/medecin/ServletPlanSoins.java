@@ -24,12 +24,14 @@ public class ServletPlanSoins extends HttpServlet {
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        ArrayList<PlanSoin> list = medecinDao.getPlanSoin(Integer.parseInt(request.getParameter("plansoin")));
-        request.setAttribute("list",list);
-        this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/PlanSoin.jsp").forward(request, response);
+
     }
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
 
+        ArrayList<PlanSoin> liste = medecinDao.getPlanSoin(Integer.parseInt(request.getParameter("idConsultation")));
+
+        request.setAttribute("plansoins",liste);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/AfficherPlanSoins.jsp").forward(request, response);
 
     }
 }

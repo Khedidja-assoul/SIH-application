@@ -22,6 +22,6 @@
 </c:if>
 
 <h1>Fonction Infirmier</h1>
-<a>Liste plans de soins</a></br>
+<a href="AfficherPlansSoins">Liste plans de soins</a></br>
 </body>
 </html>

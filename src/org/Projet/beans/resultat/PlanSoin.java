@@ -7,8 +7,10 @@ public class PlanSoin {
     private int idConsultation ;
     private ArrayList <String> listeDesSoins ;
 
+
     public PlanSoin(int idConsultation) {
         this.idConsultation = idConsultation;
+
         listeDesSoins = new ArrayList<String>();
     }
 
@@ -39,4 +41,5 @@ public class PlanSoin {
     public void ajoterSoin(String soin){
         this.listeDesSoins.add(soin);
     }
+
 }
