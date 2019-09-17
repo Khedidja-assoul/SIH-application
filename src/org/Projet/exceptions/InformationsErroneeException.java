@@ -5,3 +5,6 @@ public class InformationsErroneeException extends Exception {
         super(message);
     }
 }
+
+
+

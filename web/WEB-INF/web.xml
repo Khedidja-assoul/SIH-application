@@ -49,6 +49,16 @@
         <servlet-name>ServletGestionChambre</servlet-name>
         <url-pattern>/GestionChambre</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAjouterService</servlet-name>
+        <servlet-class>org.Projet.servletes.administrateur.ServletAjouterService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAjouterService</servlet-name>
+        <url-pattern>/AjouterService</url-pattern>
+    </servlet-mapping>
+
 <!-- Agent paramedicale-->
     <servlet>
         <servlet-name>ServletAuthentification</servlet-name>
@@ -75,6 +85,32 @@
     <servlet-mapping>
         <servlet-name>ServletGestionPatient</servlet-name>
         <url-pattern>/GestionPatient</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletGestionRdvs</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletGestionRdvs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletGestionRdvs</servlet-name>
+        <url-pattern>/GestionRdvs</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletListeMedecinsService</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletListeMedecinsService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletListeMedecinsService</servlet-name>
+        <url-pattern>/ListeMedecinsService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletListeRdvMedecin</servlet-name>
+        <servlet-class>org.Projet.servletes.agentParamedical.ServletListeRdvMedecin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletListeRdvMedecin</servlet-name>
+        <url-pattern>/ListeRdvMedecin</url-pattern>
     </servlet-mapping>
 
     <!-- Medecin -->
@@ -228,6 +264,34 @@
         <url-pattern>/DemandesActes</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>ServletValiderActe</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletValiderActe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletValiderActe</servlet-name>
+        <url-pattern>/ValiderActeLabo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletResultatsActes</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletResultatsActes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletResultatsActes</servlet-name>
+        <url-pattern>/ResultatsActes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletResultatsActe</servlet-name>
+        <servlet-class>org.Projet.servletes.agentLaboratoire.ServletResultatsActe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletResultatsActe</servlet-name>
+        <url-pattern>/ResultatsActe</url-pattern>
+    </servlet-mapping>
+
     <!-- Agent bloc operatoire -->
     <servlet>
         <servlet-name>ServletAccueilAgentBloc</servlet-name>
@@ -236,6 +300,25 @@
     <servlet-mapping>
         <servlet-name>ServletAccueilAgentBloc</servlet-name>
         <url-pattern>/AccueilBlocOperatoire</url-pattern>
+    </servlet-mapping>
+
+    <!-- Chef Service -->
+    <servlet>
+        <servlet-name>ServletAccueilChefService</servlet-name>
+        <servlet-class>org.Projet.servletes.chefService.ServletAccueilChefService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAccueilChefService</servlet-name>
+        <url-pattern>/AccueilChefService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletMedecinService</servlet-name>
+        <servlet-class>org.Projet.servletes.chefService.ServletMedecinService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletMedecinService</servlet-name>
+        <url-pattern>/GestionMedecinService</url-pattern>
     </servlet-mapping>
 
     <!-- Patient -->

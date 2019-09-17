@@ -4,6 +4,7 @@ import org.Projet.beans.patient.Patient;
 import org.Projet.beans.resultat.*;
 import org.Projet.consumer.DaoFactory;
 import org.Projet.consumer.InterfaceDao.MedecinDao;
+import org.Projet.exceptions.InformationDupliquerExeption;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -125,39 +126,22 @@ public class MedecinDaoImpl implements MedecinDao {
 
     }
 
-    public  void ajouter(ActeComplementaireLaboratoire acteLAbo){
+    public  void ajouter(ActeComplementaireLaboratoire acteLAbo) throws InformationDupliquerExeption{
         Connection connexion = null;
         PreparedStatement preparedStatement = null;
         try{
             connexion = daoFactory.getConnection();
-            preparedStatement = connexion.prepareStatement("insert into acteComplementaireLaboratoire(idConsultation)" +
-                    " values (?) ;");
+            preparedStatement = connexion.prepareStatement("insert into acteComplementaireLaboratoire(idConsultation,idAnalyse)" +
+                    " values (?,?) ;");
             preparedStatement.setInt(1,acteLAbo.getIdConsultation());
+            preparedStatement.setInt(2,acteLAbo.getIdAnalyse());
             System.out.println(preparedStatement.toString());
-            preparedStatement.executeUpdate();
+                preparedStatement.executeUpdate();
 
-            Statement statement = null;
-            ResultSet resultat = null;
-            statement = connexion.createStatement();
-            resultat = statement.executeQuery("select max(actecomplementairelaboratoire.id) from" +
-                    " actecomplementairelaboratoire,consultation where actecomplementairelaboratoire.idConsultation = " +
-                    acteLAbo.getIdConsultation() + " and actecomplementairelaboratoire.idConsultation = consultation.id ;");
+        }
+        catch (SQLIntegrityConstraintViolationException e){
+            throw new InformationDupliquerExeption("Ce type d'analyse et deja ajouter a cette consultation");
 
-            int id = -1;
-            while (resultat.next()){
-                 id = resultat.getInt("max(actecomplementairelaboratoire.id)");
-                break;
-            }
-            if (id != -1) {
-                ArrayList<Integer> list = acteLAbo.getListeTypeAnalyse();
-                for (int i = 0; i < list.size(); i++) {
-                    preparedStatement = connexion.prepareStatement("insert  into acteCompostition(idActe,idAnalyse) values  (?,?)");
-                    preparedStatement.setInt(1, id);
-                    preparedStatement.setInt(2, list.get(i));
-                    preparedStatement.executeUpdate();
-                }
-            }
-            System.out.println("ajout dans composition acte");
         }
         catch(SQLException e){
             e.printStackTrace();
@@ -344,14 +328,8 @@ public class MedecinDaoImpl implements MedecinDao {
             while (resultat.next()) {
                 ResultSet resultat2 ;
                 ActeComplementaireLaboratoire acteCompleLabo
-                        = new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"));
+                        = new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"),resultat.getInt("idAnalyse"));
                 acteCompleLabo.setId(resultat.getInt("id"));
-                statement= connexion.prepareStatement("SELECT * FROM actecompostition where idActe  = ? ;");
-                statement.setInt(1,resultat.getInt("id"));
-                resultat2 = statement.executeQuery();
-                while (resultat2.next()){
-                    acteCompleLabo.ajouterAnalyse(resultat2.getInt("idAnalyse"));
-                }
                 list.add(acteCompleLabo);
             }
         }

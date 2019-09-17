@@ -8,6 +8,7 @@ import org.Projet.consumer.InterfaceDao.AgentLaboratoireDao;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AgentLaboratoireDaoImpl implements AgentLaboratoireDao {
     private DaoFactory daoFactory;
@@ -51,20 +52,9 @@ public class AgentLaboratoireDaoImpl implements AgentLaboratoireDao {
             resultat = statement.executeQuery("select * from actecomplementairelaboratoire" +
                     " where id not in (select idActe from resultatBiologique) ; ");
             while (resultat.next()){
-
-                ActeComplementaireLaboratoire acteLabo= new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"));
+                ActeComplementaireLaboratoire acteLabo= new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"),
+                        resultat.getInt("idAnalyse"));
                 acteLabo.setId(resultat.getInt("id"));
-
-                PreparedStatement satatement2;
-                ResultSet resultat2;
-                satatement2 = connexion.prepareStatement("SELECT * FROM actecompostition where idActe  = ? ;");
-                satatement2.setInt(1,resultat.getInt("id"));
-                resultat2 = satatement2.executeQuery();
-
-                while (resultat2.next()){
-                    acteLabo.ajouterAnalyse(resultat2.getInt("idAnalyse"));
-                }
-
                 listDemandesActes.add(acteLabo);
             }
         }
@@ -163,17 +153,9 @@ public class AgentLaboratoireDaoImpl implements AgentLaboratoireDao {
             statement.setInt(1,idActe);
             resultat = statement.executeQuery();
             while (resultat.next()){
-                acteLabo= new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"));
+                acteLabo= new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"),
+                        resultat.getInt("idAnalyse"));
                 acteLabo.setId(resultat.getInt("id"));
-                PreparedStatement satatement2;
-                ResultSet resultat2;
-                satatement2 = connexion.prepareStatement("SELECT * FROM actecompostition where idActe  = ? ;");
-                satatement2.setInt(1,resultat.getInt("id"));
-                resultat2 = satatement2.executeQuery();
-
-                while (resultat2.next()){
-                    acteLabo.ajouterAnalyse(resultat2.getInt("idAnalyse"));
-                }
                 return  acteLabo;
             }
         }
@@ -212,35 +194,80 @@ public class AgentLaboratoireDaoImpl implements AgentLaboratoireDao {
         try{
             connexion = daoFactory.getConnection();
             preparedStatement = connexion.prepareStatement("insert into resultatBiologique" +
-                    "(idActe, idAgentLaboratoire, date, heure) values (?,?,?,?) ;");
+                    "(idActe, idAgentLaboratoire, date, heure,resultat) values (?,?,?,?,?) ;");
             preparedStatement.setInt(1,resultatBiologique.getIdActe());
             preparedStatement.setInt(2,resultatBiologique.getIdAgentLaboratoire());
             preparedStatement.setString(3,resultatBiologique.getDate());
             preparedStatement.setString(4,resultatBiologique.getHeure());
+            preparedStatement.setString(5,resultatBiologique.getResultat().toString());
+            System.out.println(preparedStatement.toString());
             preparedStatement.executeUpdate();
-            Statement statement = null;
-            ResultSet resultat = null;
-            int idResultatBiologique = -1  ;
-            statement = connexion.createStatement();
-            resultat = statement.executeQuery("select max(id) from resultatBiologique where idAgentLaboratoire = "
-                    +resultatBiologique.getIdAgentLaboratoire()+ " ;");
-            while (resultat.next()){
-                 idResultatBiologique = resultat.getInt("max(id)");
-                break;
-            }
-            if (idResultatBiologique!=-1) {
-                for (int i = 0; i < resultatBiologique.getResultatAnalyses().size(); i++) {
-                    preparedStatement = connexion.prepareStatement("insert into resultatAnalyse(idResultatBiologique," +
-                            "idAnalyse, detailles) values  (?,?,?)");
-                    preparedStatement.setInt(1, idResultatBiologique);
-                    preparedStatement.setInt(2,resultatBiologique.getResultatAnalyses().get(i).getIdAnalyse());
-                    preparedStatement.setString(3,resultatBiologique.getResultatAnalyses().get(i).getDetaille());
-                }
-            }
-
 
         }
         catch(SQLException e){ e.printStackTrace();}
 
+    }
+
+    public ArrayList<ActeComplementaireLaboratoire> afficherActeLaboEtablis()
+    {
+        ArrayList<ActeComplementaireLaboratoire> listeActEtabis = new ArrayList<>();
+        Connection connexion = null;
+        Statement statement = null;
+        ResultSet resultat = null;
+
+        try{
+            connexion = daoFactory.getConnection();
+            statement = connexion.createStatement();
+            resultat = statement.executeQuery("select * from actecomplementairelaboratoire" +
+                    " where id  in (select idActe from resultatBiologique) ; ");
+            while (resultat.next()){
+                ActeComplementaireLaboratoire acteLabo= new ActeComplementaireLaboratoire(resultat.getInt("idConsultation"),
+                        resultat.getInt("idAnalyse"));
+                acteLabo.setId(resultat.getInt("id"));
+                listeActEtabis.add(acteLabo);
+            }
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+        }
+
+        return listeActEtabis;
+    }
+
+
+
+    public ResultatBiologique getResultatBiologique(int idActe)
+    {
+        ResultatBiologique resultatBiologique = null;
+        Connection connexion = null;
+        Statement statement = null;
+        ResultSet resultat = null;
+
+        try{
+            connexion = daoFactory.getConnection();
+            statement = connexion.createStatement();
+            resultat = statement.executeQuery("select * from resultatBiologique ;");
+            while (resultat.next()){
+                resultatBiologique = new ResultatBiologique(resultat.getInt("idActe"),
+                        resultat.getInt("idAgentLaboratoire"),resultat.getString("date"),
+                        resultat.getString("heure"));
+                ArrayList<String> resultats = new ArrayList<>(Arrays.asList(resultat.getString("resultat").split(",")));
+                resultats.set(0, resultats.get(0).substring(1));
+                String s = resultats.get(resultats.size() - 1);
+                resultats.set(resultats.size() - 1, s.substring(0, s.length() - 1));
+                ArrayList<Float> resultatAnalyse = new ArrayList<>();
+                for (int i = 0 ;i< resultats.size();i++)
+                {
+                    resultatAnalyse.add(Float.parseFloat(resultats.get(i)));
+                }
+                resultatBiologique.setResultat(resultatAnalyse);
+                resultatBiologique.setId(resultat.getInt("id"));
+            }
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+        }
+
+        return resultatBiologique;
     }
 }

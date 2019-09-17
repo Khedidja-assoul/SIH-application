@@ -11,8 +11,13 @@ public abstract class Personnel extends Authentifiable implements Comparable<Per
     private String email ;
     private String tel ;
 
+    public Personnel(int matricule, String nom, String prenom) {
+        this.matricule = matricule;
+        this.nom = nom;
+        this.prenom = prenom;
+    }
 
-    public Personnel( String nom, String prenom, int nbHeures, String dateNaissance, String email, String tel) {
+    public Personnel(String nom, String prenom, int nbHeures, String dateNaissance, String email, String tel) {
         this.nom = nom;
         this.prenom = prenom;
         this.nbHeures = nbHeures;

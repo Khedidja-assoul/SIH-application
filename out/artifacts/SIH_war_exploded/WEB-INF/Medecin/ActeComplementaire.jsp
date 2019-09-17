@@ -15,10 +15,7 @@
     <ul>
         <li>
              Acte id :<c:out value="${list.id}"/>
-            <c:forEach var="analyse" items="${list.listeTypeAnalyse}">
-               analyse id : <c:out value="${analyse}"/>
-            </c:forEach>
-
+             Analyse id : <c:out value="${analyse}"/>
         </li>
     </ul>
 

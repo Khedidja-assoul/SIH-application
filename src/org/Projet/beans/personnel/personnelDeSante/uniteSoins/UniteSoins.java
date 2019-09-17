@@ -6,4 +6,7 @@ public abstract class UniteSoins extends Personnel {
     public UniteSoins( String nom, String prenom, int nbHeures, String dateNaissance,String email, String tel) {
         super(nom,prenom,nbHeures, dateNaissance, email, tel);
     }
+    public UniteSoins( int matricule ,String nom, String prenom) {
+        super(matricule,nom,prenom);
+    }
 }

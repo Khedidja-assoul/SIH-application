@@ -10,6 +10,18 @@
 <head>
     <title>Authentification</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/administrateur/gestion%20chambre.css" type="text/css">
+    <script>
+        function selectionTypePersonnel() {
+            var el = document.getElementById("typeUtilisateur");
+            var text = el.options[el.selectedIndex].innerHTML;
+            if (text == "Medecin") {
+                document.getElementById("med").style.display = "block";
+            }
+            else{
+                document.getElementById("med").style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
 <form method="post" action="Authentification">
@@ -18,7 +30,10 @@
         <input type="text" placeholder="Nom d'utilisateur" name="nomUtilisateur" id="nomUtilisateur"required >
         <input type="password" placeholder="Mot de passe" name="motPasse" id="motPasse" required>
         <div>
-        <select name="typeUtilisateur" id="typeUtilisateur" required>
+        <select name="typeUtilisateur" id="typeUtilisateur" onchange="selectionTypePersonnel()" required>
+            <option value="none" selected disabled hidden>
+                -Selectioner le type de l'utilisateur-
+            </option>
             <option value="medecin">Medecin</option>
             <option value="infirmier">Infirmier</option>
             <option value="agentblocoperatoire">Agent bloc operatoire</option>
@@ -26,6 +41,9 @@
             <option value="agentparamedicale" >Agent paramedicale</option>
             <option value="patient">Patient</option>
         </select>
+            <div id="med" style="display:none">
+                <input type="checkbox" name="chefservice" value="true"/>Chef Service
+            </div>
         </div>
         <button type="submit" class="registerbtn">S'authentifier</button>
     </div>

@@ -9,14 +9,16 @@ public class ResultatBiologique {
     private int idAgentLaboratoire;
     private String date;
     private String heure;
-    private ArrayList<ResultatAnalyse> resultatAnalyses;
+    private ArrayList<Float> resultat;
 
     public ResultatBiologique(int idActe, int idAgentLaboratoire, String date, String heure) {
         this.idActe = idActe;
         this.idAgentLaboratoire = idAgentLaboratoire;
         this.date = date;
         this.heure = heure;
+        this.resultat = new ArrayList<>();
     }
+
 
     public int getId() {
         return id;
@@ -58,11 +60,11 @@ public class ResultatBiologique {
         this.heure = heure;
     }
 
-    public ArrayList<ResultatAnalyse> getResultatAnalyses() {
-        return resultatAnalyses;
+    public ArrayList<Float> getResultat() {
+        return resultat;
     }
 
-    public void setResultatAnalyses(ArrayList<ResultatAnalyse> resultatAnalyses) {
-        this.resultatAnalyses = resultatAnalyses;
+    public void setResultat(ArrayList<Float> resultat) {
+        this.resultat = resultat;
     }
 }

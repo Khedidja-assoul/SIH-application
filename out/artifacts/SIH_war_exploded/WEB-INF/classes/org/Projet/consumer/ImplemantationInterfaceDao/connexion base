@@ -1,0 +1,38 @@
+Connection connexion = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            connexion = daoFactory.getConnection();
+            preparedStatement = connexion.prepareStatement("");
+            preparedStatement.setString(1,);
+            preparedStatement.setString(2,));
+            preparedStatement.setString(3,);
+            preparedStatement.setInt(4,);
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+
+
+
+                Connection connexion = null;
+                PreparedStatement preparedStatement = null;
+                ResultSet result = null;
+                try {
+                    connexion = daoFactory.getConnection();
+                    preparedStatement = connexion.prepareStatement("select * from rdv where idMedecin = ? ;");
+                    preparedStatement.setInt(1,idMedecin);
+                    preparedStatement.executeQuery();
+                }
+                catch (SQLException e){
+                    e.printStackTrace();
+                }
+
+
+                ArrayList<String> joursTravail = new
+                                        ArrayList<>(Arrays.asList(result.getString("joursTravail").split(",")));
+                                joursTravail.set(0, joursTravail.get(0).substring(1));
+                                String s = joursTravail.get(joursTravail.size() - 1);
+                                joursTravail.set(joursTravail.size() - 1, s.substring(0, s.length() - 1));
+                                rdv.setJoursTravail(joursTravail);

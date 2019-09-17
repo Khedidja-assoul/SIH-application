@@ -5,6 +5,7 @@ import org.Projet.beans.resultat.Consultation;
 import org.Projet.consumer.DaoFactory;
 import org.Projet.consumer.ImplemantationInterfaceDao.MedecinDaoImpl;
 import org.Projet.consumer.InterfaceDao.MedecinDao;
+import org.Projet.exceptions.InformationDupliquerExeption;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,16 +24,15 @@ public class ServletAjouterDemandeActe extends HttpServlet {
         this.medecinDao= (MedecinDaoImpl)daoFactory.getUtilisateurDao("medecin");
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        try {
         if (request.getParameter("typeActe")!=null){
             if (request.getParameter("typeActe").equals("actecomplementairelabo")){
                 Consultation consultation = (Consultation) request.getSession().getAttribute("consultation");
                 System.out.println("l 'id de la consultation est : " + consultation.getId());
-                ActeComplementaireLaboratoire actLabo = new ActeComplementaireLaboratoire(consultation.getId());
-                String liste [] = request.getParameterValues("analyse");
-                for (int i = 0 ; i < liste.length; i++){
-                    System.out.println("l'analyse a ajouter est : "+ liste[i]);
-                    actLabo.ajouterAnalyse(medecinDao.getAnalyse(liste[i]).getId());
-                }
+                String analyse = request.getParameter("analyse");
+                ActeComplementaireLaboratoire actLabo = new ActeComplementaireLaboratoire(consultation.getId(),
+                        medecinDao.getAnalyse(analyse).getId());
                 medecinDao.ajouter(actLabo);
 
                 this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/ComposantConsultation.jsp").forward(request, response);
@@ -44,6 +44,11 @@ public class ServletAjouterDemandeActe extends HttpServlet {
         }
         else {
             this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/AjouterDemandeActe.jsp").forward(request, response);
+        }
+    }
+        catch (InformationDupliquerExeption e){
+        request.setAttribute("erreur",e.getMessage());
+        this.getServletContext().getRequestDispatcher("/WEB-INF/Medecin/AjouterDemandeActe.jsp").forward(request, response);
         }
     }
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {

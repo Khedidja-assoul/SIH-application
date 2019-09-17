@@ -2,6 +2,7 @@ package org.Projet.consumer.InterfaceDao;
 
 import org.Projet.beans.patient.Patient;
 import org.Projet.beans.resultat.*;
+import org.Projet.exceptions.InformationDupliquerExeption;
 
 import java.util.ArrayList;
 
@@ -10,7 +11,7 @@ public interface MedecinDao {
     Analyse getAnalyse(String nom);
     Patient getPatient(String nom, String prenom);
     int ajouter(Consultation consultation);
-    void ajouter(ActeComplementaireLaboratoire acteLAbo);
+    void ajouter(ActeComplementaireLaboratoire acteLAbo) throws InformationDupliquerExeption;
     void ajouter(Presecription presecription);
     void ajouter(CompteRenduConsultation compteRendu);
     void ajouter(PlanSoin planSoin);

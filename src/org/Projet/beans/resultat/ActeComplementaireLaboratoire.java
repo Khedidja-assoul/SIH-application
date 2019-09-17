@@ -4,24 +4,19 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 public class ActeComplementaireLaboratoire extends ActeComplementaire {
-    private ArrayList<Integer> listeTypeAnalyse;
+    private int idAnalyse;
 
-    public ActeComplementaireLaboratoire(int idConsultation){
+
+    public ActeComplementaireLaboratoire(int idConsultation, int idAnalyse) {
         super(idConsultation);
-        listeTypeAnalyse = new ArrayList<>();
+        this.idAnalyse = idAnalyse;
     }
 
-    public ArrayList<Integer> getListeTypeAnalyse() {
-        return listeTypeAnalyse;
+    public int getIdAnalyse() {
+        return idAnalyse;
     }
 
-    public void setListeTypeAnalyse(ArrayList<Integer> listeTypeAnalyse) {
-        this.listeTypeAnalyse = listeTypeAnalyse;
+    public void setIdAnalyse(int idAnalyse) {
+        this.idAnalyse = idAnalyse;
     }
-
-    public void ajouterAnalyse(int id){
-        listeTypeAnalyse.add(id);
-    }
-
-
 }

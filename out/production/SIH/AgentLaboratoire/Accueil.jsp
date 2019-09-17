@@ -24,6 +24,6 @@
 <h1>Fonction agent laboratoire</h1>
 <a href="/SIH_war_exploded/GestionAnalyse">Afficher la liste des analyse disponible</a><br>
 <a href="/SIH_war_exploded/DemandesActes">Liste des demandes</a></br>
-<a>Liste des resultat biologique deja etablie</a></br>
+<a href="/SIH_war_exploded/ResultatsActes">Liste des resultat biologique deja etablie</a></br>
 </body>
 </html>

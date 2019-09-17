@@ -5,12 +5,12 @@ import com.google.gson.JsonParser;
 
 public class Analyse {
     private int id;
-    private String nomOfficile;
+    private String nomOfficiel;
     private String abreviation;
     private String detailles;
 
-    public Analyse(String nomOfficile, String abreviation, String detailles) {
-        this.nomOfficile = nomOfficile;
+    public Analyse(String nomOfficiel, String abreviation, String detailles) {
+        this.nomOfficiel = nomOfficiel;
         this.abreviation = abreviation;
         this.detailles = detailles;
     }
@@ -23,12 +23,12 @@ public class Analyse {
         this.id = id;
     }
 
-    public String getNomOfficile() {
-        return nomOfficile;
+    public String getNomOfficiel() {
+        return nomOfficiel;
     }
 
-    public void setNomOfficile(String nomOfficile) {
-        this.nomOfficile = nomOfficile;
+    public void setNomOfficiel(String nomOfficile) {
+        this.nomOfficiel = nomOfficile;
     }
 
     public String getAbreviation() {

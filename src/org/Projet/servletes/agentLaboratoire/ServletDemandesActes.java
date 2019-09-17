@@ -34,6 +34,7 @@ public class ServletDemandesActes extends HttpServlet {
         ArrayList<Medecin> listeMedecin= new ArrayList<>();
         for(int i =0 ; i<listeDemandeActe.size() ; i++){
             Consultation consultation = agentLaboratoireDao.getConsultation(listeDemandeActe.get(i).getIdConsultation());
+            System.out.println(consultation.getId()+" idPatient : "+consultation.getIdPatient()+" idMedecin : "+consultation.getIdMedecin());
             listeConsultation.add(consultation);
             listePatient.add(agentLaboratoireDao.getPatient(consultation.getIdPatient()));
             listeMedecin.add(agentLaboratoireDao.getMedecin(consultation.getIdMedecin()));

@@ -49,17 +49,19 @@
 </head>
 <body>
 <c:forEach var="analyse" items="${analyses}">
-
     <h1><c:out value="${ analyse.abreviation} " /></h1>
-    <h2><c:out value="${ analyse.nomOfficile} "/></h2>
+    <h2><c:out value="${ analyse.nomOfficiel} "/></h2>
     <input type="hidden" id="json" value='${ analyse.detailles}'>
 </c:forEach>
-<table id="excelDataTable" border="1"></table>
+
+<table id="excelDataTable"  border="1"></table>
+
 <script>
     myList = JSON.parse(document.getElementById("json").value);
     buildHtmlTable('#excelDataTable');
 </script>
 
 </body>
+
 
 </html>

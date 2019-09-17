@@ -115,4 +115,31 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
         return null;
 
     }
+
+    public int isChefService (int idMedecin) throws InformationsErroneeException
+    {
+        int idService = 0 ;
+
+        Connection connection =null;
+        PreparedStatement preparedStatement = null;
+        ResultSet result;
+        try {
+            connection = daoFactory.getConnection();
+            preparedStatement = connection.prepareStatement("select * from chefservice where idMedecin  = ? ;");
+            preparedStatement.setInt(1,idMedecin);
+            result = preparedStatement.executeQuery();
+            while (result.next()){
+                idService = result.getInt("idService");
+                return idService;
+            }
+            throw new InformationsErroneeException("Ce compte n'est pas la proprieter : chef de service");
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+
+        }
+
+        return idService;
+
+    }
 }

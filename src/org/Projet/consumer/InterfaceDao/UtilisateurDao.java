@@ -8,4 +8,5 @@ public interface UtilisateurDao {
 
     int connexion(String id, String motPasse, String typeUtilisateur) throws InformationsErroneeException;
     Authentifiable getCompte(String nomUtilisateur, String motPasse, String typeUtilisateur) throws InformationsErroneeException ;
+    int isChefService (int idMedecin)  throws InformationsErroneeException;
 }

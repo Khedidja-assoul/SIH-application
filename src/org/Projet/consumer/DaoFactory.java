@@ -46,6 +46,7 @@ public class DaoFactory {
             case "infirmier": return new InfirmierDaoImpl(this);
             case "agentBlocOperatoire" :return new AgentBlocOperatoireDaoImpl(this);
             case "agentLaboratoire" : return new AgentLaboratoireDaoImpl(this);
+            case "chefService" :return new ChefServiceDaoImpl(this);
         }
 
         return null;

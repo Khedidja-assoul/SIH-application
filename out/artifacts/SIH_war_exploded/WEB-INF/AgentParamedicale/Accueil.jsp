@@ -23,5 +23,6 @@
 
 <h1>Fonction Agent paramedical</h1>
 <a href="/SIH_war_exploded/GestionPatient">Gestion patients</a></br>
+<a href="/SIH_war_exploded/GestionRdvs">Gestion rendez-vous</a>
 </body>
 </html>

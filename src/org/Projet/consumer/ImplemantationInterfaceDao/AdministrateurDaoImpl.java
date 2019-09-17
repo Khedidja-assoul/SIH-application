@@ -3,6 +3,7 @@ package org.Projet.consumer.ImplemantationInterfaceDao;
 import org.Projet.beans.Administrateur;
 import org.Projet.beans.Utilisateur;
 import org.Projet.beans.etablisement.Chambre;
+import org.Projet.beans.etablisement.Service;
 import org.Projet.beans.personnel.Personnel;
 import org.Projet.beans.personnel.agentParamedicale.AgentParamedicale;
 import org.Projet.beans.personnel.personnelDeSante.medicoTechenique.AgentBlocOperatoire;
@@ -258,7 +259,10 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
 
         } catch (SQLException e) {
             e.printStackTrace();
+
+
         }
+
         throw new InformationsErroneeException("Informations Erronee");
     }
 
@@ -367,6 +371,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             supprimer(idPersonnel);
         }
         catch(SQLException e){
+            e.printStackTrace();
         }
 
     }
@@ -381,6 +386,7 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             preparedStatement.executeUpdate();
         }
         catch(SQLException e){
+            e.printStackTrace();
         }
 
     }
@@ -412,8 +418,68 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
             preparedStatement.executeUpdate();
         }
         catch(SQLException e){
+            e.printStackTrace();
         }
 
+    }
+    public Medecin getMedecin(int id){
+        Medecin medecin= null;
+        Connection connexion = null;
+        PreparedStatement statement = null;
+        ResultSet resultat = null;
+        try {
+            connexion = daoFactory.getConnection();
+            statement= connexion.prepareStatement("SELECT * FROM medecin where id = ? ;");
+            statement.setInt(1,id);
+            resultat = statement.executeQuery();
+            while (resultat.next()) {
+                medecin = new Medecin(resultat.getString("nom"),resultat.getString("prenom"),
+                        resultat.getInt("nbHeures"),
+                        resultat.getString("datenaissance"),
+                        resultat.getString("email"),resultat.getString("tel"),
+                        resultat.getString("grade"),resultat.getString("specialite"));
+                medecin.setMatricule(resultat.getInt("id"));
+
+                return medecin;
+            }
+        }
+
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return medecin;
+    }
+
+    public void ajouter(Service service)
+    {
+        Connection connection =null;
+        PreparedStatement preparedStatement = null;
+        try{
+            connection = daoFactory.getConnection();
+            preparedStatement = connection.prepareStatement("insert into service(nom,etage,aile) values (?, ?, ?);");
+            preparedStatement.setString(1,service.getNom());
+            preparedStatement.setInt(2,service.getEtage());
+            preparedStatement.setString(3,service.getAile());
+            preparedStatement.executeUpdate();
+            Statement statement = null;
+            ResultSet resultat = null;
+            statement = connection.createStatement();
+            resultat =statement.executeQuery("SELECT max(id) from service");
+            int id =0;
+            while (resultat.next()){
+                id = resultat.getInt("max(id)");
+                break;
+            }
+            if (id != 0){ //TODO:exeption service non ajouter
+            preparedStatement = connection.prepareStatement("insert into chefservice(idMedecin, idService) values (?, ?);");
+            preparedStatement.setInt(1,service.getIdChefService());
+            preparedStatement.setInt(2,id);
+            preparedStatement.executeUpdate();
+            }
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+        }
     }
 
 

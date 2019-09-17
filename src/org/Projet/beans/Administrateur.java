@@ -61,11 +61,7 @@ public class Administrateur {
         this.prenom = prenom;
     }
 
-    public void ajouterChefService(Medecin medecin, Service service){
-        medecin.setEstChefService(true);
-        medecin.setService(service);
-        //TODO : travailler avec le matricule du medecin est le nom du service au lieu des objets
-    }
+
 
     @Override
     public String toString() {
