@@ -30,9 +30,9 @@ public class AdministrateurDaoImpl implements AdministrateurDao {
     public ArrayList<Personnel> affichierPersonnels(String typePersonnel){
 
         ArrayList<Personnel> personnels= new ArrayList();
-        Connection connexion = null;
-        Statement statement = null;
-        ResultSet resultat = null;
+            Connection connexion = null;
+            Statement statement = null;
+            ResultSet resultat = null;
         try {
             connexion = daoFactory.getConnection();
             statement = connexion.createStatement();

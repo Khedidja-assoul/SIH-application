@@ -16,7 +16,7 @@
   <a href="/SIH_war_exploded/AuthentificationAdmin">Authentification admin</a>
   <h1>Authentification</h1>
   <a href="/SIH_war_exploded/Authentification">Authentification</a></br>
-  <a href="/SIH_war_exploded/test">test json to html</a></br>
+
 
   </body>
 </html>

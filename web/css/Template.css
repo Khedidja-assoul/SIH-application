@@ -1,0 +1,392 @@
+header
+{
+position: relative;
+top: 0px;
+width:100%;
+height:70px;
+background-color:rgba(242, 242, 242, 1);
+}
+#div1_h
+{
+position: relative;
+grid-area: 1 / 1 / 2 / 2;
+justify-self: start;
+align-self: start;
+top:40%;
+font-size:1.0em;
+margin-left: 7%;
+}
+.mv{
+color: #9155A7;
+text-decoration: none;
+}
+#div2_h
+{
+font-size:1.0em;
+position: relative;
+margin-left: 80%;
+grid-area: 1 / 1 / 2 / 2;
+justify-self: start;
+align-self: start;
+top: 10%;
+}
+#sec{
+margin-left:7%;
+margin-right: 100px;
+}
+#div31_h
+{
+stroke-width:0;
+fill-opacity:1;
+stroke:#000000;stroke-opacity:1;
+fill:rgba(13, 178, 107, 1);
+position: relative;
+top: 30px;
+left: 3px;
+}
+/*color: #FFFFFF;top:;bottom:;left:;right:;height:0px;position*/
+#div3_h
+{
+position: relative;
+margin: 0px 0px 0px calc((100% - 980px) * 0.5);
+left: 19px;
+grid-area: 1 / 1 / 1 / 2;
+justify-self: start;
+align-self: start;
+width:14px;height: 0px;
+}
+#div4_h
+{
+position: relative;
+margin: 0px 0px 0px calc((100% - 990px) * 0.5);
+left: 797px;
+grid-area: 1 / 1 / 2 / 2;
+justify-self: start;
+align-self: start;
+top:;bottom:;left:;right:;
+width:14px;height:13px;position:
+}
+#div411_h
+{
+stroke-width:0;fill-opacity:1;stroke:#000000;stroke-opacity:1;fill:rgba(13, 178, 107, 1);
+position: relative;
+bottom: 30px
+}
+.style-ijfori4f {-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+.font_8 {font: normal normal normal 15px/1.4em raleway,sans-serif ;color:#605E5E;}
+.txtNew {word-wrap:break-word;text-align:start;width: 142px; pointer-events: none;}
+.style-ijfori4flink,.style-ijfori4fsvg {position:absolute;top:0;right:0;bottom:0;left:0;}
+.color_11 {color: #FFFFFF;}
+.font_0 {font: normal normal normal 32px/1.4em raleway,sans-serif ;color:#9155A7;}
+.color_13 {color: #A0A09F;}
+.font_8 {font: normal normal normal 15px/1.4em raleway,sans-serif ;color:#605E5E;}
+.ddm1itemsContainer {width:calc(100% - 0px);height:calc(100% - 0px);white-space:nowrap;
+display:inline-block;overflow:visible;position:relative;}
+.ddm1repeaterButton {height:100%;position:relative;box-sizing:border-box;display:inline-block;
+cursor:pointer;font:normal normal normal 14px/1.4em raleway,sans-serif;}
+.ddm1repeaterButtonlabel {display:inline-block;padding:0 10px;color:#2F2E2E;transition:color 0.4s ease 0s;}
+.style-jwufrl2gavatar {display:inline-block;vertical-align:middle;padding-right:14px;padding-left:14px;}
+.style-jwufrl2gavatarimage {position:static;box-shadow:#000 0 0 0;}
+/*
+position: relative;
+margin: 17px 0px 35px calc((100% - 980px) * 0.5);
+left: 820px;
+grid-area: 1 / 1 / 2 / 2;
+justify-self: start;
+align-self: start;*/
+body
+{
+margin: auto;
+width: 100%;
+height: 100%;
+color: #2F2E2E;
+font: normal normal normal 14px/1.4em raleway,sans-serif;
+}
+.ReseauSocia
+{
+width: 29px; height: 29px; object-fit: cover;
+position: relative;
+top:70px;
+left: 250px;
+}
+#span1_f
+{
+position: relative;
+width: 807px; pointer-events: none;
+}
+#div1_s
+{
+top:30px;
+left:8px;
+width:40px;
+height:40px;
+position:relative;
+}
+#div2_s
+{
+position: relative;
+left:60px;
+bottom: 40px;
+display:inline;
+color: #8A2BE2;
+}
+#div3_s
+{
+position: relative;
+left: 70px;
+bottom: 60px;
+width: 227px; pointer-events: none;
+letter-spacing:0.1em;
+
+}
+#div11_s
+{
+stroke-width:0;fill-opacity:1;stroke:rgba(145, 85, 167, 1);stroke-opacity:1;fill:rgba(145, 85, 167, 1);
+}
+#div1_b
+{
+width:56px;height:46px}
+#div11_b
+{
+width:6px;height:6px;stroke-width:0;fill-opacity:1;stroke:#5E97FF;
+stroke-opacity:1;fill:rgba(145, 85, 167, 1);undefined:rgba(145, 85, 167, 1);
+}
+/*
+}*/
+#span_but1
+{
+font-size: 14px;
+position:relative;
+right: 6px;
+}
+#button1
+{
+position: relative;
+left: 980px;
+bottom: 220px;
+}
+/* Navigation */
+nav ul
+{
+list-style-type: none;
+display: flex;
+position: relative;
+bottom: 150px;
+margin-top: 30px;
+margin-left: 53%;
+}
+nav li
+{
+margin-right: 100px;
+}
+nav a
+{
+font-size: 1.1em;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+cursor: pointer;
+}
+nav p:hover
+{
+color:#9155A7;
+border-bottom: 3px solid #9155A7;
+}
+a:activate
+{
+color: #9932CC;
+}
+/* Navigation*/
+footer
+{
+position: relative;
+top: 370px;
+bottom: auto;
+width:100%;
+height:132px;
+background-color:rgba(109, 204, 163, 1);
+left:0;margin-left:0;
+color: white;
+}
+#span1_f
+{
+position: relative;
+top: 20px;
+left: 10%;
+}
+#span2_f
+{
+position: relative;
+top:50px;
+right: 7.5%;
+}
+#span3_f
+{
+position: relative;
+top:50px;
+left: 20%;
+}
+/****************************** authentification générale *******************************/
+/*       A  U  T  H  E  N  T  I  F  I  A  C  T  I  O  N  		*/
+.input1
+{
+height:60px;width: 200px;
+padding-left:25px;
+border: 2px solid #3CB371 ;
+font-style: italic;
+border-radius: 5px;
+}
+.input2
+{
+height:60px;width: 200px;
+padding-left:25px;
+border: 2px solid #3CB371;
+font-style: italic;
+border-radius: 5px;
+}
+.input1:hover
+{
+cursor: pointer;
+background-color:#AFEEEE ;
+border:0;
+}
+.input2:hover
+{
+cursor: pointer;
+background-color:#AFEEEE ;
+border: 0;
+}
+#but_f
+{
+width: 450px;
+height: 70px;
+position: relative;
+border-radius: 5px;
+border: 0;
+top: 150px;
+left: 600px;
+background-color: #AFEEEE;
+font-style: italic;
+font-size: 17px;
+}
+#but_f:hover
+{
+cursor: pointer;
+background-color: #3CB371;
+}
+.but_tab
+{
+  width: 100px;
+  height: 50px; 
+  border-radius: 5px;
+  border: 0;
+  background-color: #AFEEEE;
+  font-style: italic; 
+}
+.but_tab:hover
+{
+cursor: pointer;
+background-color: #3CB371;
+}
+/*       A  U  T  H  E  N  T  I  F  I  A  C  T  I  O  N  		*/
+/****************************** **************** *******************************/
+/********************************* LISTE ***************************************/
+table {
+width:80%;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+}
+table, th, td {
+border: 1px solid white;
+border-collapse: collapse;
+}
+th
+{
+	font-size: 20px;
+}
+th, td {
+padding: 30px;
+text-align: left;
+}
+table#t01 tr:nth-child(even) {
+background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+background-color: #fff;
+}
+table#t01 th {
+background-color: #70C1B3;
+color: white;
+}
+table#t02 th {
+background-color:#F25F5C;
+color: white;}
+table#t03 th {
+background-color: #50514F;
+color: white;}
+/****************************************************************************************/
+.Rcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.Rcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #3CB371 ; 
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.Rcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.Rcontainer input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.Rcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.Rcontainer .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+/****************************************************************************************/

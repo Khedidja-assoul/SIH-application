@@ -36,32 +36,32 @@
             <option value="agentparamedicale" selected>Agent paramedicale</option>
         </select>
     </div>
-        <input type="text" placeholder="Nom" name="nom" id="nom" />
-        <input type="text" placeholder="Prenom" name="prenom" id="prenom" />
-        <input type="text" placeholder="Nombre d'heures de travaille par semaine" name="nbHeures" id="nbHeures" />
-        <input type="date" placeholder="Date de naissance" name="dateNaissance" id="dateNaissance" />
-        <input type="text" placeholder="Numero de telephone" name="tel" id="tel" />
-        <input type="text" placeholder="Adresse e-mail" name="email" id="email" />
-        <div id="med" style="display:none">
-            <input type="text" placeholder="Grade du medecin" name="grade" id="grade" />
-            <input type="text" placeholder="Specialite" name="specialite" id="specialite" />
-        </div>
+    <input type="text" placeholder="Nom" name="nom" id="nom" />
+    <input type="text" placeholder="Prenom" name="prenom" id="prenom" />
+    <input type="text" placeholder="Nombre d'heures de travaille par semaine" name="nbHeures" id="nbHeures" />
+    <input type="date" placeholder="Date de naissance" name="dateNaissance" id="dateNaissance" />
+    <input type="text" placeholder="Numero de telephone" name="tel" id="tel" />
+    <input type="text" placeholder="Adresse e-mail" name="email" id="email" />
+    <div id="med" style="display:none">
+        <input type="text" placeholder="Grade du medecin" name="grade" id="grade" />
+        <input type="text" placeholder="Specialite" name="specialite" id="specialite" />
+    </div>
     <button type="submit" class="registerbtn">Ajouter</button>
 </form>
 <div>
-<form method="post" action="GestionPersonnel">
-    <div class="container">
-        <h1>Afficher personnel selon type</h1>
-        <select name="typePersonnelAffichier" id="typePersonnelAffichier" >
-            <option value="medecin">Medecin</option>
-            <option value="infirmier">Infirmier</option>
-            <option value="agentblocoperatoire">Agent bloc operatoire</option>
-            <option value="agentlaboratoire" selected>Agent laboratoire</option>
-            <option value="agentparamedicale" selected>Agent paramedicale</option>
-        </select>
-        <button type="submit" class="registerbtn">Afficher</button>
-    </div>
-</form>
+    <form method="post" action="GestionPersonnel">
+        <div class="container">
+            <h1>Afficher personnel selon type</h1>
+            <select name="typePersonnelAffichier" id="typePersonnelAffichier" >
+                <option value="medecin">Medecin</option>
+                <option value="infirmier">Infirmier</option>
+                <option value="agentblocoperatoire">Agent bloc operatoire</option>
+                <option value="agentlaboratoire" selected>Agent laboratoire</option>
+                <option value="agentparamedicale" selected>Agent paramedicale</option>
+            </select>
+            <button type="submit" class="registerbtn">Afficher</button>
+        </div>
+    </form>
 </div>
 <ul>
     <c:forEach var="personnel" items="${ personnels}">

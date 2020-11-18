@@ -36,6 +36,7 @@ public class ServletDemandesActes extends HttpServlet {
             Consultation consultation = agentLaboratoireDao.getConsultation(listeDemandeActe.get(i).getIdConsultation());
             listePatient.add(agentLaboratoireDao.getPatient(consultation.getIdPatient()));
             listeMedecin.add(agentLaboratoireDao.getMedecin(consultation.getIdMedecin()));
+            listeConsultation.add(consultation);
         }
         request.setAttribute("listeDemandeActe",listeDemandeActe);
         request.setAttribute("listeConsultation",listeConsultation);

@@ -102,41 +102,41 @@
         </form>
     </c:if>
     <c:if test="${not empty rdv}">
-    <form method="post" action="GestionRdvs" class="container">
-        <div class="navette">
-            <div class="md-form">
-                <input placeholder="Selectionner un rendez vous" name="jour" type="text" id="date-picker1"
-                       class="form-control datepicker"  onchange="loadSelect();blockerHeurs(getJoursBlocker(this.value))" required>
-            </div>
-            <select id="heures" style="display: none!important" name="heure" required>
-                <option value="none" selected disabled hidden>-Selectioner une heure pour le rdv-</option>
-                <option value="08:00-08:30">08:00-08:30</option>
-                <option value="08:30-09:00">08:30-09:00</option>
-                <option value="09:00-09:30">09:00-09:30</option>
-                <option value="09:30-10:00">09:30-10:00</option>
-                <option value="10:00-10:30">10:00-10:30</option>
-                <option value="10:30-11:00">10:30-11:00</option>
-                <option value="11:00-11:30">11:00-11:30</option>
-                <option value="11:30-12:00">11:30-12:00</option>
-                <option value="13:00-13:30">13:00-13:30</option>
-                <option value="14:00-14:30">14:00-14:30</option>
-                <option value="14:30-15:00">14:30-15:00</option>
-                <option value="15:00-15:30">15:00-15:30</option>
-                <option value="15:30-16:00">15:30-16:00</option>
-                <option value="16:00-16:30">16:00-16:30</option>
-                <option value="16:30-17:00">16:30-17:00</option>
-            </select>
-            <br>
-            <input name="idPatient" type="number" placeholder="Identifiant patient" required><br><br>
-            <input name="nomPatient" type="text" placeholder="Nom du patient" required><br><br>
-            <input name="prenomPatient" type="text" placeholder="Prenom du patient" required><br><br>
-            <c:if test="${not empty erreur}">
-            <p style="color:red;">
-                <c:out value="${ erreur }" />
-            </p>
-            </c:if>
-            <button id="save" class="btn btn-light">Réserver</button>
-    </form>
+        <form method="post" action="GestionRdvs" class="container">
+            <div class="navette">
+                <div class="md-form">
+                    <input placeholder="Selectionner un rendez vous" name="jour" type="text" id="date-picker1"
+                           class="form-control datepicker"  onchange="loadSelect();blockerHeurs(getJoursBlocker(this.value))" required>
+                </div>
+                <select id="heures" style="display: none!important" name="heure" required>
+                    <option value="none" selected disabled hidden>-Selectioner une heure pour le rdv-</option>
+                    <option value="08:00-08:30">08:00-08:30</option>
+                    <option value="08:30-09:00">08:30-09:00</option>
+                    <option value="09:00-09:30">09:00-09:30</option>
+                    <option value="09:30-10:00">09:30-10:00</option>
+                    <option value="10:00-10:30">10:00-10:30</option>
+                    <option value="10:30-11:00">10:30-11:00</option>
+                    <option value="11:00-11:30">11:00-11:30</option>
+                    <option value="11:30-12:00">11:30-12:00</option>
+                    <option value="13:00-13:30">13:00-13:30</option>
+                    <option value="14:00-14:30">14:00-14:30</option>
+                    <option value="14:30-15:00">14:30-15:00</option>
+                    <option value="15:00-15:30">15:00-15:30</option>
+                    <option value="15:30-16:00">15:30-16:00</option>
+                    <option value="16:00-16:30">16:00-16:30</option>
+                    <option value="16:30-17:00">16:30-17:00</option>
+                </select>
+                <br>
+                <input name="idPatient" type="number" placeholder="Identifiant patient" required><br><br>
+                <input name="nomPatient" type="text" placeholder="Nom du patient" ><br><br>
+                <input name="prenomPatient" type="text" placeholder="Prenom du patient" ><br><br>
+                <c:if test="${not empty erreur}">
+                <p style="color:red;">
+                    <c:out value="${ erreur }" />
+                </p>
+                </c:if>
+                <button id="save" class="btn btn-light">Réserver</button>
+        </form>
     </c:if>
 </div>
 </body>
